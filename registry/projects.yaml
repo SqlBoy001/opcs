@@ -1,0 +1,27 @@
+schema_version: 1
+projects:
+  - id: ai-drama-stadio
+    name: AI 漫剧
+    repo: https://github.com/SqlBoy001/ai_drama_stadio.git
+    stage: UNCONFIRMED
+    status: unverified
+    owner: TBD
+    goal: 验证 AI 漫剧低成本生产是否具有可用的质量与成本比
+    hypothesis: 在预先约定的预算和人工时间内，真实小样本能够达到角色一致、叙事连贯和可发布的验收阈值
+    next_action: 先核对历史账单与产物，再明确小样本数量、验收阈值及预算上限，获得付费授权后复核
+    evidence:
+      - kind: 事实
+        source: https://github.com/SqlBoy001/ai_drama_stadio.git
+        checked_at: '2026-09-29'
+        note: git ls-remote 确认仓库可访问，HEAD 为 main，提交 07d619f5a516a937e92341833cd5173b927beb32；未检查业务实现或运行效果
+      - kind: 推测
+        source: ../experiments/EXP-0001-ai-drama-stadio.md
+        checked_at: '2026-09-29'
+        note: 待验证假设与取证计划，不是已完成验收的证据
+    cost:
+      token: null
+      api_calls: null
+      cny: null
+      human_hours: null
+    decision: PENDING
+    last_reviewed: '2026-09-29'
