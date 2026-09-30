@@ -1,0 +1,338 @@
+{
+  "project_id": "ai-drama-stadio",
+  "experiment_id": "EXP-0001",
+  "source_evidence": [
+    {
+      "attachment_id": "01a0f062-cbcc-7c9d-9e65-4c0bb6d9a4ab",
+      "file": "Validation-Report-v2.txt",
+      "authority": "final factual authority"
+    },
+    {
+      "attachment_id": "01a0f062-cee3-76f2-bcee-ba80be9ea438",
+      "file": "OPC-1-validation-v2.zip"
+    }
+  ],
+  "conclusion_status": "ITERATE",
+  "actual_cost": {
+    "token": null,
+    "api_calls": 0,
+    "cny": null,
+    "human_hours": null,
+    "scope": "本次内容制作：新增付费生成/API调用0；Agent与运行费用未知，不代表零成本",
+    "evidence": [
+      "本次执行日志"
+    ]
+  },
+  "public_artifact_paths": [],
+  "Hook": [
+    "AI 漫剧真实实验复盘 有检查版，不等于通过成片验收"
+  ],
+  "Goal": [
+    "AI 漫剧能否兼顾质量与成本？ 先看已有产物，再决定是否继续投入。"
+  ],
+  "Demo": [
+    {
+      "id": 3,
+      "phase": "Demo",
+      "output_start": 14,
+      "output_end": 22,
+      "title": "已有产物：60秒检查版",
+      "subtitle_lines": [
+        "真实素材节选 · 原速 · 静音",
+        "720p / 24fps；完整内容仍为 PARTIAL"
+      ],
+      "source_start": 0,
+      "source_end": 8,
+      "evidence": [
+        "E03",
+        "Quality"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 4,
+      "phase": "Problem",
+      "output_start": 22,
+      "output_end": 29,
+      "title": "看这段夺刃：34—41秒",
+      "subtitle_lines": [
+        "接近腰部 → 反应近景 → 持刃结果",
+        "连续动作被切镜分开。"
+      ],
+      "source_start": 34,
+      "source_end": 41,
+      "evidence": [
+        "E04",
+        "E06",
+        "Quality"
+      ],
+      "claim_type": "observation"
+    },
+    {
+      "id": 5,
+      "phase": "Insight",
+      "output_start": 29,
+      "output_end": 36,
+      "title": "再看出鞘与倒地：46—53秒",
+      "subtitle_lines": [
+        "结果可见，但直接因果依赖剪辑与推断。",
+        "不能据此认证完整接触动作。"
+      ],
+      "source_start": 46,
+      "source_end": 53,
+      "evidence": [
+        "E06",
+        "Quality"
+      ],
+      "claim_type": "observation"
+    }
+  ],
+  "Problem": [
+    "接近腰部 → 反应近景 → 持刃结果 连续动作被切镜分开。",
+    "原声尚未主观听审，本版保持静音。 制作页播放有缺陷；直接文件可以播放。"
+  ],
+  "Insight": [
+    "结果可见，但直接因果依赖剪辑与推断。 不能据此认证完整接触动作。"
+  ],
+  "Result": [
+    "已有可供复盘的检查版；业务验证仍 PARTIAL。 还不能证明高质量发布或商业价值。"
+  ],
+  "Next Experiment": [
+    "先完整听审60秒，再请目标观众复述冲突。 记录继续观看意愿，再决定是否投入。"
+  ],
+  "business_validation": "PARTIAL",
+  "draft_status": "unpublished_subtitle_only",
+  "source_media": {
+    "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0006_20260926_亡国公主·全角色重制版/exports/action-v06/jinyang-EP01-action-v06c-720p.mp4",
+    "sha256": "b7066a812e9801f7b3d4b6ab8874a483bb52ca106851f7e07e681a48b4c16029"
+  },
+  "billing": {
+    "date": "2026-09-28",
+    "currency": "CNY",
+    "account_video_cash": 74.92,
+    "attribution": "与本集汇总吻合，未逐请求归因",
+    "project_total": null,
+    "september_account_total": 274.92,
+    "included_plan": 200,
+    "snapshot": "2026-09-30，9月出账中",
+    "evidence": [
+      "E11",
+      "E12",
+      "Cost"
+    ]
+  },
+  "loop": {
+    "handoffs_at_entry": 2,
+    "handoffs_on_return": 3,
+    "full_qa_additional": 0,
+    "development_reworks_additional": 0,
+    "historical_counts": "沿用OPC-1，不重置"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "phase": "Hook",
+      "output_start": 0,
+      "output_end": 6,
+      "title": "做出一分钟，算成功了吗？",
+      "subtitle_lines": [
+        "AI 漫剧真实实验复盘",
+        "有检查版，不等于通过成片验收"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "E03",
+        "Quality"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 2,
+      "phase": "Goal",
+      "output_start": 6,
+      "output_end": 14,
+      "title": "这次想验证什么",
+      "subtitle_lines": [
+        "AI 漫剧能否兼顾质量与成本？",
+        "先看已有产物，再决定是否继续投入。"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "Hypothesis"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 3,
+      "phase": "Demo",
+      "output_start": 14,
+      "output_end": 22,
+      "title": "已有产物：60秒检查版",
+      "subtitle_lines": [
+        "真实素材节选 · 原速 · 静音",
+        "720p / 24fps；完整内容仍为 PARTIAL"
+      ],
+      "source_start": 0,
+      "source_end": 8,
+      "evidence": [
+        "E03",
+        "Quality"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 4,
+      "phase": "Problem",
+      "output_start": 22,
+      "output_end": 29,
+      "title": "看这段夺刃：34—41秒",
+      "subtitle_lines": [
+        "接近腰部 → 反应近景 → 持刃结果",
+        "连续动作被切镜分开。"
+      ],
+      "source_start": 34,
+      "source_end": 41,
+      "evidence": [
+        "E04",
+        "E06",
+        "Quality"
+      ],
+      "claim_type": "observation"
+    },
+    {
+      "id": 5,
+      "phase": "Insight",
+      "output_start": 29,
+      "output_end": 36,
+      "title": "再看出鞘与倒地：46—53秒",
+      "subtitle_lines": [
+        "结果可见，但直接因果依赖剪辑与推断。",
+        "不能据此认证完整接触动作。"
+      ],
+      "source_start": 46,
+      "source_end": 53,
+      "evidence": [
+        "E06",
+        "Quality"
+      ],
+      "claim_type": "observation"
+    },
+    {
+      "id": 6,
+      "phase": "Problem",
+      "output_start": 36,
+      "output_end": 44,
+      "title": "还有两项限制",
+      "subtitle_lines": [
+        "原声尚未主观听审，本版保持静音。",
+        "制作页播放有缺陷；直接文件可以播放。"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "E08",
+        "E10",
+        "Quality"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 7,
+      "phase": "Cost",
+      "output_start": 44,
+      "output_end": 56,
+      "title": "74.92元，究竟是什么钱？",
+      "subtitle_lines": [
+        "9月28日账户视频现金金额：74.92元",
+        "与本集汇总吻合，未逐请求归因；非整集成本。"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "E12",
+        "Cost"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 8,
+      "phase": "Cost",
+      "output_start": 56,
+      "output_end": 64,
+      "title": "完整制作成本：未知",
+      "subtitle_lines": [
+        "9月账户金额274.92元，含200元套餐。",
+        "图片工具、文字、人工等费用尚未完整核清。"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "E11",
+        "Cost"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 9,
+      "phase": "Result",
+      "output_start": 64,
+      "output_end": 70,
+      "title": "这次的结论：继续小步验证",
+      "subtitle_lines": [
+        "已有可供复盘的检查版；业务验证仍 PARTIAL。",
+        "还不能证明高质量发布或商业价值。"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "Conclusion"
+      ],
+      "claim_type": "fact"
+    },
+    {
+      "id": 10,
+      "phase": "Next Experiment",
+      "output_start": 70,
+      "output_end": 78,
+      "title": "下一步建议（尚未执行）",
+      "subtitle_lines": [
+        "先完整听审60秒，再请目标观众复述冲突。",
+        "记录继续观看意愿，再决定是否投入。"
+      ],
+      "source_start": null,
+      "source_end": null,
+      "evidence": [
+        "Next Experiment"
+      ],
+      "claim_type": "proposal"
+    }
+  ],
+  "duration_seconds": 78,
+  "legacy_78s_draft_status": "仅内部事实草稿；用户反馈文字卡过多、缺少完整过程与修改对比，不作为小红书/抖音直接发布素材",
+  "sample_v02": {
+    "purpose": "先验证问题→修改→效果对比的竖屏镜头语言，再扩展完整AI OPC过程",
+    "status": "unpublished_silent_style_sample",
+    "duration_seconds": 29,
+    "voiceover_status": "scene级文稿已写；未合成配音或数字人，后续配音需重新对齐时间线",
+    "sources": {
+      "raw": {"file": "videos/vg_46_ecfddff9.mp4", "sha256": "e0f8d3bfef73503f7d63d8d953cba858af232354528bd6bf69d56e8ecdad2f40"},
+      "edit": {"file": "videos/s007-action-v05-editorial.mp4", "sha256": "8a88d6ec1799f8bb073af8d1651d09a4681dab96ed1777295ab6674f3aeaff95"},
+      "final": {"file": "exports/action-v06/jinyang-EP01-action-v06c-720p.mp4", "sha256": "b7066a812e9801f7b3d4b6ab8874a483bb52ca106851f7e07e681a48b4c16029"}
+    },
+    "evidence": [
+      "docs/productions/jinyang-rebuild-v01/qc-action-v05.md",
+      "docs/productions/jinyang-rebuild-v01/qc-action-v06.md",
+      "OPC-1 Validation-Report-v2.txt E03/E04/E06"
+    ],
+    "scenes": [
+      {"id": "01-hook", "kind": "single", "source": "raw", "source_start": 2.4, "duration": 3.5, "heading": "这把刀怎么到手里？", "line1": "先看原始生成的关键一秒", "line2": "人物动作出现了，过程却不够清楚", "footer": "项目 6 · S007 · 真实原片", "voiceover": "AI做的夺刃镜头，刀怎么到手？"},
+      {"id": "02-raw", "kind": "single", "source": "raw", "source_start": 0, "duration": 6, "heading": "原片：动作路径没交代清楚", "line1": "从靠近腰间到持刀结果", "line2": "审核记录：刀刃完整退出不清楚", "footer": "v05 动作审核 · 原片 6 秒", "voiceover": "原片里，手靠近腰间，但刀刃退出过程不清楚。"},
+      {"id": "03-change", "kind": "single", "source": "edit", "source_start": 2, "duration": 4, "speed": 0.5, "heading": "改的是剪辑，不是模型", "line1": "2.2–3.1 秒切到赵的反应", "line2": "再切回持刀结果；特写裁切较软", "footer": "v05 审核记录 · S007 剪辑候选", "voiceover": "我们在两点二到三点一秒插入赵的反应。"},
+      {"id": "04-edited", "kind": "single", "source": "edit", "source_start": 0, "duration": 6, "heading": "再看剪辑版", "line1": "反应镜头隔开了难解释的动作", "line2": "看懂结果，仍不等于连续出鞘成功", "footer": "同一模型原片 · 本地剪辑处理", "voiceover": "切镜后结果能跟上，动作本身没有变好。"},
+      {"id": "05-compare", "kind": "comparison", "duration": 6, "heading": "原片 / 剪辑版，同一时点", "left_label": "原片", "right_label": "剪辑版", "footer": "差别集中在 2.2–3.1 秒的反应近景", "voiceover": "看并排对比：这是剪辑取舍，不是模型过关。"},
+      {"id": "06-final", "kind": "single", "source": "final", "source_start": 34, "duration": 3.5, "heading": "检查版最终沿用这段剪辑", "line1": "这是 60 秒检查版的局部", "line2": "动作依赖切镜；原声音色尚未听审", "footer": "v06c 检查版 · 未发布", "voiceover": "最终进入检查版；原声还没听审。"}
+    ]
+  }
+}
