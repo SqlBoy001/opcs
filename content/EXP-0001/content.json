@@ -558,5 +558,83 @@
         "evidence": "OPC-1 v2 Conclusion / Next Experiment"
       }
     ]
+  },
+  "short_v04": {
+    "status": "unpublished_silent_primary_draft",
+    "duration_seconds": 90,
+    "derived_from": "full_v03",
+    "note": "同一14镜与证据；只压缩镜头停留时间，口播稿按90秒重写。工作台是今日只读回看。",
+    "scenes": [
+      {
+        "id": "01-hook",
+        "duration": 5,
+        "voiceover": "刷到太多AI漫剧副业视频，我决定不报班，自己试。"
+      },
+      {
+        "id": "02-goal",
+        "duration": 7,
+        "voiceover": "我想知道一个人加AI，能否做出能看的片子，返工和花费又是多少。"
+      },
+      {
+        "id": "03-tools",
+        "duration": 7,
+        "voiceover": "GPT图片代理没打通。本集换DeepSeek、Seedream和Seedance。"
+      },
+      {
+        "id": "04-workbench",
+        "duration": 7,
+        "voiceover": "剧本、角色、分镜、视频接进工作台，但不是一键完成。"
+      },
+      {
+        "id": "05-characters",
+        "duration": 7,
+        "voiceover": "七张角色图出来，侧视重复，木枷还变成颈圈。"
+      },
+      {
+        "id": "06-storyboard",
+        "duration": 7,
+        "voiceover": "十镜分镜连上提示词、图和视频，生成后还得逐镜看。"
+      },
+      {
+        "id": "07-failure",
+        "duration": 7,
+        "voiceover": "重做女主七张图，服装回来了，脚镣又变成大圆环。"
+      },
+      {
+        "id": "08-iteration",
+        "duration": 6,
+        "voiceover": "只好修参考图，再校每个动作的起止状态。"
+      },
+      {
+        "id": "09-raw",
+        "duration": 5,
+        "voiceover": "S007原片，刀刃退出过程看不清。"
+      },
+      {
+        "id": "10-edit",
+        "duration": 5,
+        "voiceover": "我把赵的反应镜头插进去。"
+      },
+      {
+        "id": "11-compare",
+        "duration": 5,
+        "voiceover": "改善来自剪辑，模型没做好连续出鞘。"
+      },
+      {
+        "id": "12-result",
+        "duration": 8,
+        "voiceover": "最后得到十镜六十秒检查版；声音和口型还没听审。"
+      },
+      {
+        "id": "13-cost",
+        "duration": 8,
+        "voiceover": "九月二十八日筛选账单七十四元九角二，不能算整集成本。"
+      },
+      {
+        "id": "14-next",
+        "duration": 6,
+        "voiceover": "先听审，再请观众复述剧情，看是否愿意追。"
+      }
+    ]
   }
 }
