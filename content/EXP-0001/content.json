@@ -311,15 +311,31 @@
   ],
   "duration_seconds": 78,
   "legacy_78s_draft_status": "仅内部事实草稿；用户反馈文字卡过多、缺少完整过程与修改对比，不作为小红书/抖音直接发布素材",
+  "selection_motivation": {
+    "source": "用户在 OPC-2 会话 2026-09-30 的第一人称补充",
+    "claim_type": "personal_observation_and_motivation",
+    "source_summary": "用户感觉 AI 漫剧/短剧在抖音、小红书频繁出现，也看到大量 AI 漫剧副业教学视频；选择不报班，自己尝试 OPC，用 AI 验证 AI 漫剧可行性。",
+    "publishable_first_person": "我刷到不少 AI 漫剧和副业教学视频，决定先不报班，自己用 AI 做一集试试。做得出来、质量怎样、返工和花费有多少，我想用真实过程回答。",
+    "boundary": "这是用户个人观察与选题动机；未统计平台内容数量、市场规模或副业收益，不能改写成行业增长结论。"
+  },
   "sample_v02": {
     "purpose": "先验证问题→修改→效果对比的竖屏镜头语言，再扩展完整AI OPC过程",
     "status": "unpublished_silent_style_sample",
     "duration_seconds": 29,
     "voiceover_status": "scene级文稿已写；未合成配音或数字人，后续配音需重新对齐时间线",
     "sources": {
-      "raw": {"file": "videos/vg_46_ecfddff9.mp4", "sha256": "e0f8d3bfef73503f7d63d8d953cba858af232354528bd6bf69d56e8ecdad2f40"},
-      "edit": {"file": "videos/s007-action-v05-editorial.mp4", "sha256": "8a88d6ec1799f8bb073af8d1651d09a4681dab96ed1777295ab6674f3aeaff95"},
-      "final": {"file": "exports/action-v06/jinyang-EP01-action-v06c-720p.mp4", "sha256": "b7066a812e9801f7b3d4b6ab8874a483bb52ca106851f7e07e681a48b4c16029"}
+      "raw": {
+        "file": "videos/vg_46_ecfddff9.mp4",
+        "sha256": "e0f8d3bfef73503f7d63d8d953cba858af232354528bd6bf69d56e8ecdad2f40"
+      },
+      "edit": {
+        "file": "videos/s007-action-v05-editorial.mp4",
+        "sha256": "8a88d6ec1799f8bb073af8d1651d09a4681dab96ed1777295ab6674f3aeaff95"
+      },
+      "final": {
+        "file": "exports/action-v06/jinyang-EP01-action-v06c-720p.mp4",
+        "sha256": "b7066a812e9801f7b3d4b6ab8874a483bb52ca106851f7e07e681a48b4c16029"
+      }
     },
     "evidence": [
       "docs/productions/jinyang-rebuild-v01/qc-action-v05.md",
@@ -327,12 +343,220 @@
       "OPC-1 Validation-Report-v2.txt E03/E04/E06"
     ],
     "scenes": [
-      {"id": "01-hook", "kind": "single", "source": "raw", "source_start": 2.4, "duration": 3.5, "heading": "这把刀怎么到手里？", "line1": "先看原始生成的关键一秒", "line2": "人物动作出现了，过程却不够清楚", "footer": "项目 6 · S007 · 真实原片", "voiceover": "AI做的夺刃镜头，刀怎么到手？"},
-      {"id": "02-raw", "kind": "single", "source": "raw", "source_start": 0, "duration": 6, "heading": "原片：动作路径没交代清楚", "line1": "从靠近腰间到持刀结果", "line2": "审核记录：刀刃完整退出不清楚", "footer": "v05 动作审核 · 原片 6 秒", "voiceover": "原片里，手靠近腰间，但刀刃退出过程不清楚。"},
-      {"id": "03-change", "kind": "single", "source": "edit", "source_start": 2, "duration": 4, "speed": 0.5, "heading": "改的是剪辑，不是模型", "line1": "2.2–3.1 秒切到赵的反应", "line2": "再切回持刀结果；特写裁切较软", "footer": "v05 审核记录 · S007 剪辑候选", "voiceover": "我们在两点二到三点一秒插入赵的反应。"},
-      {"id": "04-edited", "kind": "single", "source": "edit", "source_start": 0, "duration": 6, "heading": "再看剪辑版", "line1": "反应镜头隔开了难解释的动作", "line2": "看懂结果，仍不等于连续出鞘成功", "footer": "同一模型原片 · 本地剪辑处理", "voiceover": "切镜后结果能跟上，动作本身没有变好。"},
-      {"id": "05-compare", "kind": "comparison", "duration": 6, "heading": "原片 / 剪辑版，同一时点", "left_label": "原片", "right_label": "剪辑版", "footer": "差别集中在 2.2–3.1 秒的反应近景", "voiceover": "看并排对比：这是剪辑取舍，不是模型过关。"},
-      {"id": "06-final", "kind": "single", "source": "final", "source_start": 34, "duration": 3.5, "heading": "检查版最终沿用这段剪辑", "line1": "这是 60 秒检查版的局部", "line2": "动作依赖切镜；原声音色尚未听审", "footer": "v06c 检查版 · 未发布", "voiceover": "最终进入检查版；原声还没听审。"}
+      {
+        "id": "01-hook",
+        "kind": "single",
+        "source": "raw",
+        "source_start": 2.4,
+        "duration": 3.5,
+        "heading": "这把刀怎么到手里？",
+        "line1": "先看原始生成的关键一秒",
+        "line2": "人物动作出现了，过程却不够清楚",
+        "footer": "项目 6 · S007 · 真实原片",
+        "voiceover": "AI做的夺刃镜头，刀怎么到手？"
+      },
+      {
+        "id": "02-raw",
+        "kind": "single",
+        "source": "raw",
+        "source_start": 0,
+        "duration": 6,
+        "heading": "原片：动作路径没交代清楚",
+        "line1": "从靠近腰间到持刀结果",
+        "line2": "审核记录：刀刃完整退出不清楚",
+        "footer": "v05 动作审核 · 原片 6 秒",
+        "voiceover": "原片里，手靠近腰间，但刀刃退出过程不清楚。"
+      },
+      {
+        "id": "03-change",
+        "kind": "single",
+        "source": "edit",
+        "source_start": 2,
+        "duration": 4,
+        "speed": 0.5,
+        "heading": "改的是剪辑，不是模型",
+        "line1": "2.2–3.1 秒切到赵的反应",
+        "line2": "再切回持刀结果；特写裁切较软",
+        "footer": "v05 审核记录 · S007 剪辑候选",
+        "voiceover": "我们在两点二到三点一秒插入赵的反应。"
+      },
+      {
+        "id": "04-edited",
+        "kind": "single",
+        "source": "edit",
+        "source_start": 0,
+        "duration": 6,
+        "heading": "再看剪辑版",
+        "line1": "反应镜头隔开了难解释的动作",
+        "line2": "看懂结果，仍不等于连续出鞘成功",
+        "footer": "同一模型原片 · 本地剪辑处理",
+        "voiceover": "切镜后结果能跟上，动作本身没有变好。"
+      },
+      {
+        "id": "05-compare",
+        "kind": "comparison",
+        "duration": 6,
+        "heading": "原片 / 剪辑版，同一时点",
+        "left_label": "原片",
+        "right_label": "剪辑版",
+        "footer": "差别集中在 2.2–3.1 秒的反应近景",
+        "voiceover": "看并排对比：这是剪辑取舍，不是模型过关。"
+      },
+      {
+        "id": "06-final",
+        "kind": "single",
+        "source": "final",
+        "source_start": 34,
+        "duration": 3.5,
+        "heading": "检查版最终沿用这段剪辑",
+        "line1": "这是 60 秒检查版的局部",
+        "line2": "动作依赖切镜；原声音色尚未听审",
+        "footer": "v06c 检查版 · 未发布",
+        "voiceover": "最终进入检查版；原声还没听审。"
+      }
+    ]
+  },
+  "full_v03": {
+    "status": "unpublished_silent_process_draft",
+    "duration_seconds": 117,
+    "format": "vertical_720x1280_24fps",
+    "selection_source": "selection_motivation；用户第一人称观察，不是平台统计或市场调研结论",
+    "recording_note": "工作台当前页面按固定路径做只读回放；浏览器WebM导出无帧，采用回放中重截的静帧，标注今日回看",
+    "audio_note": "静音预览；scene级口播文稿待后期配音，接入后须重新对齐",
+    "scenes": [
+      {
+        "id": "01-hook",
+        "duration": 6,
+        "asset": "raw",
+        "source_start": 0,
+        "headline": "AI漫剧刷屏，我没报班",
+        "caption": "先自己做一集试试",
+        "voiceover": "AI漫剧刷屏，我没报班，决定自己做一集试试。",
+        "evidence": "用户个人动机；项目6原片46"
+      },
+      {
+        "id": "02-goal",
+        "duration": 10,
+        "asset": "final",
+        "source_start": 0,
+        "headline": "我想验证的不是副业神话",
+        "caption": "一个人 + AI 能做成吗？\n画质、返工、花费怎么算？",
+        "voiceover": "我想验证，一个人配合AI能否把故事做成能看的片子。真实返工和花费又是多少？",
+        "evidence": "用户个人动机；OPC-1 v2 Hypothesis"
+      },
+      {
+        "id": "03-tools",
+        "duration": 10,
+        "asset": "script_screen",
+        "headline": "先查工具，再动手",
+        "caption": "GPT 图片代理未打通\n本集用 DeepSeek / Seedream / Seedance",
+        "voiceover": "前期GPT图片代理没打通。这个案例实际用DeepSeek写人物资料，Seedream做图，Seedance做视频。",
+        "evidence": "业务findings.md；qc-first-pass.md；qc-action-v06.md"
+      },
+      {
+        "id": "04-workbench",
+        "duration": 9,
+        "asset": "script_screen",
+        "headline": "把制作流程接进本地工作台",
+        "caption": "剧本 → 角色 → 分镜 → 视频 → 审核",
+        "voiceover": "我把剧本、角色、分镜、视频和审核接进本地工作台。但这集不是按一次按钮自动做完。",
+        "evidence": "业务task_plan.md / docs/progress.md；今日只读回放"
+      },
+      {
+        "id": "05-characters",
+        "duration": 9,
+        "asset": "first_pass",
+        "headline": "第一轮：7张角色图生成",
+        "caption": "侧视重复、木枷变颈圈；候选没有放行",
+        "voiceover": "第一轮七张角色图都生成了。侧视重复，木枷变颈圈，不能直接往下用。",
+        "evidence": "qc-first-pass.md；contact-first-pass.jpg"
+      },
+      {
+        "id": "06-storyboard",
+        "duration": 9,
+        "asset": "storyboard_screen",
+        "headline": "提示词、图、视频进入10镜分镜",
+        "caption": "生成完成后，仍需逐镜审核",
+        "voiceover": "十镜分镜能在制作页看到提示词、图和视频。生成成功，仍要逐镜看。",
+        "evidence": "项目6制作页今日只读回放；OPC-1 v2 E02"
+      },
+      {
+        "id": "07-failure",
+        "duration": 10,
+        "asset": "bad_shackle",
+        "headline": "重做后，又冒出新问题",
+        "caption": "女主服装回来了，脚镣却被放大成圆环",
+        "voiceover": "重做女主出镜的七张图后，服装回来了。像这张，脚镣却被画成大圆环。",
+        "evidence": "qc-storyboards-v02.md；图片任务128"
+      },
+      {
+        "id": "08-iteration",
+        "duration": 8,
+        "asset": "cast_v04",
+        "headline": "先修参考，再校动作",
+        "caption": "人物状态、道具与起止帧分开处理",
+        "voiceover": "于是先修角色和道具参考，再校准每个动作镜头的起止状态。",
+        "evidence": "qc-escort-v03.md；qc-cast-v04.md；qc-action-v05.md"
+      },
+      {
+        "id": "09-raw",
+        "duration": 6,
+        "asset": "raw",
+        "source_start": 0,
+        "headline": "S007：刀刃退出过程不清",
+        "caption": "原始模型视频 · 6秒",
+        "voiceover": "到了S007，原始视频里的刀刃退出过程仍不清楚。",
+        "evidence": "qc-action-v05.md；原片SHA"
+      },
+      {
+        "id": "10-edit",
+        "duration": 6,
+        "asset": "edit",
+        "source_start": 0,
+        "headline": "改动：插入赵的反应近景",
+        "caption": "2.2–3.1秒切开动作，再回持刀结果",
+        "voiceover": "我们在两点二到三点一秒切入赵的反应，再切回持刀结果。",
+        "evidence": "qc-action-v05.md；剪辑版SHA"
+      },
+      {
+        "id": "11-compare",
+        "duration": 6,
+        "asset": "compare",
+        "headline": "改善来自剪辑取舍",
+        "caption": "上：原片  下：剪辑版；不等于完整连续出鞘",
+        "voiceover": "两版并排看，改善来自剪辑，不是模型把连续动作做对了。",
+        "evidence": "原片/剪辑版同时间点"
+      },
+      {
+        "id": "12-result",
+        "duration": 10,
+        "asset": "final",
+        "source_start": 46,
+        "headline": "最后得到60秒检查版",
+        "caption": "10镜 · 720p；主要结果可跟随，原声未听审",
+        "voiceover": "最后十镜合成六十秒720p检查版。主要结果能跟上，声音和口型还没主观验收。",
+        "evidence": "OPC-1 v2 E03/E04/E06/E10"
+      },
+      {
+        "id": "13-cost",
+        "duration": 10,
+        "asset": "final",
+        "source_start": 34,
+        "headline": "已知的，只是部分账单",
+        "caption": "9月28日筛选账单现金74.92元；非整集成本",
+        "voiceover": "九月二十八日筛选账单现金七十四元九角二，与本集汇总吻合，但没有逐请求归因；完整成本未知。",
+        "evidence": "OPC-1 v2 E11/E12"
+      },
+      {
+        "id": "14-next",
+        "duration": 8,
+        "asset": "final",
+        "source_start": 52,
+        "headline": "结论：继续小范围验证",
+        "caption": "先听审，再问观众是否看懂、愿不愿继续看",
+        "voiceover": "这次值得继续小试。先听审，再找真实观众看懂没、愿不愿继续看。",
+        "evidence": "OPC-1 v2 Conclusion / Next Experiment"
+      }
     ]
   }
 }
