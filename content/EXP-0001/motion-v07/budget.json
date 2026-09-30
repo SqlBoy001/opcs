@@ -1,0 +1,42 @@
+{
+  "currency": "CNY",
+  "video_model": "doubao-seedance-2-5-260628",
+  "spec": "720p/24fps，无视频输入；复用或修正首尾参考",
+  "price_per_million_tokens": 70,
+  "six_seconds_tokens": 130500,
+  "seven_seconds_tokens": 152100,
+  "six_seconds_list_cny": 9.135,
+  "seven_seconds_list_cny": 10.647,
+  "low": {
+    "shots": [
+      "S005",
+      "S007"
+    ],
+    "tries_each": 2,
+    "image_allowance_count": 4,
+    "image_price": 0.25,
+    "video_cny": 36.54,
+    "image_cny": 1,
+    "subtotal": 37.54
+  },
+  "high": {
+    "shots": [
+      "S005",
+      "S007",
+      "S009"
+    ],
+    "tries_each": 2,
+    "image_allowance_count": 6,
+    "image_price": 0.25,
+    "video_cny": 57.834,
+    "image_cny": 1.5,
+    "subtotal": 59.334
+  },
+  "suggested_reserve_cny": [
+    40,
+    60
+  ],
+  "not_guaranteed_quality": true,
+  "actual_new_requests": 0,
+  "source": "v2供应商用量；2026-09-30官网模型价格；价格为刊例，不预设未来套餐剩余或优惠"
+}
