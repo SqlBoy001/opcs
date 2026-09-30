@@ -1,0 +1,16 @@
+{
+  "media": "PASS",
+  "caption_text_and_coverage": "PASS",
+  "source_hashes_match_previous_verified_sources": "PASS",
+  "account_arithmetic": "PASS",
+  "decode_exit": 0,
+  "decode_stderr": "",
+  "duration": 180,
+  "frames": 4320,
+  "bytes": 2035870,
+  "sha256": "eb46cda47b50564943f08c06819be9efaa12b9b6c1d986945e797d761be8c773",
+  "streams": 1,
+  "audio": "absent; silent review draft",
+  "visual": "PASS_WITH_LIMITS: manually viewed 19 representative final-export frames across all 19 shots; captions legible, no obvious clipping; not every frame or all 72 cues manually inspected",
+  "business_qa": "not rerun"
+}
