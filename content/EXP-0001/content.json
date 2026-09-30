@@ -636,5 +636,165 @@
         "voiceover": "先听审，再请观众复述剧情，看是否愿意追。"
       }
     ]
+  },
+  "ppt_demo_v05": {
+    "status": "unpublished_silent_review_draft",
+    "duration_seconds": 90,
+    "format": "vertical_720x1280_24fps",
+    "structure": "个人动机→准备清单→准备演示→三关讲解页/真实片段→结果/费用/下一步",
+    "art_note": "本地绘制插画与章节卡均标示意；没有付费生成；现有工作台为今日只读回看",
+    "audio_note": "静音草稿；口播稿未配音",
+    "scenes": [
+      {
+        "id": "01-hook",
+        "duration": 5,
+        "kind": "video",
+        "asset": "hook_video",
+        "headline": "刷到很多 AI 漫剧副业内容",
+        "caption": "个人观察｜决定先不报班",
+        "voiceover": "最近刷到不少AI漫剧副业视频，我决定先不报班。",
+        "evidence": "用户个人观察；本实验视频作开场画面示意"
+      },
+      {
+        "id": "02-question",
+        "duration": 6,
+        "kind": "slide",
+        "asset": "question",
+        "headline": "一个人做 AI 漫剧",
+        "caption": "到底要准备什么？",
+        "voiceover": "但一个人做AI漫剧，到底要准备什么？",
+        "evidence": "用户提出的问题；示意画面"
+      },
+      {
+        "id": "03-checklist",
+        "duration": 10,
+        "kind": "slide",
+        "asset": "checklist",
+        "headline": "我先拆成四件事",
+        "caption": "故事 / 人物场景 / 工具 / 预算与验收",
+        "voiceover": "我先把问题拆成四块：故事、人物场景、模型与工作台，还有预算和验收。",
+        "evidence": "内容组织框架；不宣称历史市场调研"
+      },
+      {
+        "id": "04-script",
+        "duration": 6,
+        "kind": "slide",
+        "asset": "script",
+        "headline": "准备①：先把故事拆成镜头",
+        "caption": "这集已有剧本与10镜结构",
+        "voiceover": "这集先有剧本和十镜结构，目标是一段六十秒冲突。",
+        "evidence": "项目6当前只读工作台；OPC-1 v2 E02"
+      },
+      {
+        "id": "05-tools",
+        "duration": 8,
+        "kind": "slide",
+        "asset": "tools",
+        "headline": "准备②：工具各做什么？",
+        "caption": "DeepSeek 人物 / Seedream 图 / Seedance 视频",
+        "voiceover": "GPT图片代理没打通。本集用DeepSeek、Seedream和Seedance分工。",
+        "evidence": "业务 findings.md、qc-first-pass.md、qc-action-v06.md"
+      },
+      {
+        "id": "06-workbench",
+        "duration": 6,
+        "kind": "slide",
+        "asset": "workbench",
+        "headline": "准备③：接进工作台",
+        "caption": "剧本 → 角色 → 分镜 → 视频",
+        "voiceover": "本地工作台串起剧本、角色、分镜和视频。",
+        "evidence": "项目6当前只读工作台；业务 task_plan.md"
+      },
+      {
+        "id": "07-chapter-roles",
+        "duration": 4,
+        "kind": "slide",
+        "asset": "chapter_roles",
+        "headline": "第一关：人物能稳定吗？",
+        "caption": "先看首轮生成",
+        "voiceover": "第一关，人物能直接用吗？",
+        "evidence": "内容提问；首轮QC为证据"
+      },
+      {
+        "id": "08-roles-demo",
+        "duration": 6,
+        "kind": "video",
+        "asset": "roles",
+        "headline": "首轮 7 张角色图",
+        "caption": "侧视重复；木枷变颈圈",
+        "voiceover": "首轮七张角色图里，侧视重复，木枷变成颈圈。",
+        "evidence": "qc-first-pass.md；首轮接触表"
+      },
+      {
+        "id": "09-chapter-image",
+        "duration": 4,
+        "kind": "slide",
+        "asset": "chapter_image",
+        "headline": "第二关：分镜图能用吗？",
+        "caption": "修改也会引入新问题",
+        "voiceover": "第二关，分镜图能直接用吗？",
+        "evidence": "内容提问；分镜QC为证据"
+      },
+      {
+        "id": "10-image-demo",
+        "duration": 6,
+        "kind": "slide",
+        "asset": "shackle",
+        "headline": "服装回来了，脚镣又错了",
+        "caption": "脚镣被放大成圆环",
+        "voiceover": "重做后服装回来了，脚镣又被放成大圆环。",
+        "evidence": "qc-storyboards-v02.md；真实图片SHA"
+      },
+      {
+        "id": "11-chapter-action",
+        "duration": 4,
+        "kind": "slide",
+        "asset": "chapter_action",
+        "headline": "第三关：动作能读懂吗？",
+        "caption": "看 S007 原片和剪辑",
+        "voiceover": "第三关，动作能看懂吗？",
+        "evidence": "内容提问；S007 QC为证据"
+      },
+      {
+        "id": "12-compare",
+        "duration": 6,
+        "kind": "video",
+        "asset": "compare",
+        "headline": "原片 vs 剪辑",
+        "caption": "上原片 / 下剪辑：改善来自取舍",
+        "voiceover": "S007的刀刃退出不清楚，只能插反应镜头剪开。",
+        "evidence": "qc-action-v05.md；原片/剪辑版SHA"
+      },
+      {
+        "id": "13-result",
+        "duration": 9,
+        "kind": "video",
+        "asset": "result",
+        "headline": "结果：60 秒检查版",
+        "caption": "10镜 · 720p；原声未听审",
+        "voiceover": "最后做成十镜六十秒检查版，但声音、口型还没验收。",
+        "evidence": "OPC-1 Validation-Report-v2 E03/E06"
+      },
+      {
+        "id": "14-cost",
+        "duration": 5,
+        "kind": "slide",
+        "asset": "cost",
+        "headline": "账单只回答一部分",
+        "caption": "9/28筛选账单现金74.92元；整集成本未知",
+        "voiceover": "当日筛选账单七十四元九角二，整集成本未知。",
+        "evidence": "OPC-1 Validation-Report-v2 E11/E12"
+      },
+      {
+        "id": "15-next",
+        "duration": 5,
+        "kind": "slide",
+        "asset": "next",
+        "headline": "值不值得继续？",
+        "caption": "先听审，再找观众复述剧情",
+        "voiceover": "先听审，再找观众，看是否愿意继续看。",
+        "evidence": "OPC-1 Validation-Report-v2 Next Experiment"
+      }
+    ]
   }
 }
