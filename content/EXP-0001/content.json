@@ -1719,7 +1719,7 @@
       ]
     }
   },
-  "latest_draft": "recap_v08",
+  "latest_draft": "story_v09",
   "motion_v07": {
     "status": "review_draft_billing_live_refresh_pending",
     "duration_seconds": 180,
@@ -3751,6 +3751,1143 @@
       "deepseek": "近30天消费2.91元；9/26提示0.19元；范围不等于本实验",
       "minimax": "两条为9/16与9/21，标价0.0389/0.5068，券后均0；不能归为本轮费用",
       "treatment": "保留未计入口径，不把全账户/历史金额直接摊本片"
+    }
+  },
+  "story_v09": {
+    "status": "review_draft",
+    "duration_seconds": 185,
+    "chapters": [
+      {
+        "id": "01",
+        "duration": 15,
+        "title": "一个人做60秒AI漫剧，\n为什么总在返工？",
+        "short": "真实失败开场",
+        "palette": "navy",
+        "narration": [
+          "古装押送兵，怎么穿成这样？",
+          "衣服改了，脚镣又大成这样。",
+          "做这六十秒，我搭工作台、反复返工。",
+          "怎么做、哪里翻车、花了多少？这次都讲清楚。"
+        ],
+        "shots": [
+          [
+            "hook_costume",
+            3
+          ],
+          [
+            "hook_shackle",
+            3
+          ],
+          [
+            "hook_result",
+            4
+          ],
+          [
+            "hook_promise",
+            5
+          ]
+        ],
+        "start_frame": 0,
+        "end_frame": 360
+      },
+      {
+        "id": "02",
+        "duration": 18,
+        "title": "开工前，\n先拆成四件事",
+        "short": "先备什么？",
+        "palette": "violet",
+        "narration": [
+          "先说开工前。故事冲突、人物场景、生成工具，还有预算。",
+          "文字模型整理资料，图像工具做参考，视频模型生成镜头。",
+          "难点是把这些环节接起来。"
+        ],
+        "shots": [
+          [
+            "prep",
+            9
+          ],
+          [
+            "tools",
+            9
+          ]
+        ],
+        "start_frame": 360,
+        "end_frame": 792
+      },
+      {
+        "id": "03",
+        "duration": 12,
+        "title": "把工具，\n串成一个工作台",
+        "short": "从想法到制作",
+        "palette": "blue",
+        "narration": [
+          "我在LocalMiniDrama基础上，继续搭建工作台。",
+          "创作入口和制作流程顺了，画面的问题才刚开始。"
+        ],
+        "shots": [
+          [
+            "build_before",
+            6
+          ],
+          [
+            "build_after",
+            6
+          ]
+        ],
+        "start_frame": 792,
+        "end_frame": 1080
+      },
+      {
+        "id": "04",
+        "duration": 24,
+        "title": "古装押送兵，\n怎么穿成了这样？",
+        "short": "第一处返工：时代错了",
+        "palette": "red",
+        "narration": [
+          "这就是重制前的押送兵。看帽檐、立领，还有胸前的双排扣。",
+          "古装故事里混进这套服装，一眼就违和。",
+          "查提示词才发现，润色时已经写进了近现代服制。",
+          "先纠正时代，再换人物参考，不能把错误继续传给分镜。"
+        ],
+        "shots": [
+          [
+            "era_sample",
+            10
+          ],
+          [
+            "era_prompt",
+            6
+          ],
+          [
+            "era_compare",
+            8
+          ]
+        ],
+        "start_frame": 1080,
+        "end_frame": 1656
+      },
+      {
+        "id": "05",
+        "duration": 20,
+        "title": "人物改了，\n分镜还在穿旧衣服",
+        "short": "第二处返工：旧资料没换",
+        "palette": "blue",
+        "narration": [
+          "人物卡已经更新，分镜却还在用旧衣服、旧描述。",
+          "上游改了，下游没有一起变。",
+          "后来补上依赖同步，让旧素材失效，再逐镜核对新的参考。"
+        ],
+        "shots": [
+          [
+            "sync",
+            10
+          ],
+          [
+            "warning",
+            10
+          ]
+        ],
+        "start_frame": 1656,
+        "end_frame": 2136
+      },
+      {
+        "id": "06",
+        "duration": 22,
+        "title": "脸像了，\n剧情处境还不对",
+        "short": "第三处返工：押送状态",
+        "palette": "green",
+        "narration": [
+          "押送中的囚犯，脸和衣服怎么会干干净净？",
+          "要补污痕和磨损，还要逐人处理木枷、脚镣和官兵状态。",
+          "可重生图又冒出了巨型脚镣。",
+          "一个问题修好，并不代表下一张图就不会出新问题。"
+        ],
+        "shots": [
+          [
+            "state",
+            6
+          ],
+          [
+            "state_detail",
+            8
+          ],
+          [
+            "shackle",
+            8
+          ]
+        ],
+        "start_frame": 2136,
+        "end_frame": 2664
+      },
+      {
+        "id": "07",
+        "duration": 24,
+        "title": "动作不顺，\n换一种镜头讲法",
+        "short": "第四处返工：取刀动作",
+        "palette": "amber",
+        "narration": [
+          "接下来是取刀。上面是原片，下面是剪辑版。",
+          "原片没有把连续动作交代清楚。",
+          "最后切到对方的反应，再回到持刀结果。",
+          "故事接上了，但这个改善来自剪辑，并不是模型把动作做完美了。"
+        ],
+        "shots": [
+          [
+            "compare",
+            12
+          ],
+          [
+            "action",
+            12
+          ]
+        ],
+        "start_frame": 2664,
+        "end_frame": 3240
+      },
+      {
+        "id": "08",
+        "duration": 27,
+        "title": "这60秒，\n是这样做出来的",
+        "short": "做出了什么，又付出了什么",
+        "palette": "blue",
+        "narration": [
+          "折腾到这里，总算留下了这版六十秒漫剧。",
+          "第一次熟悉流程，搭工作台、调接口、跑测试，我先充了两百元火山节省计划。",
+          "这版视频生成和修改，又花了大概七十五元。DeepSeek、MiniMax还没算。转场和打斗想更自然，还得再投入。"
+        ],
+        "shots": [
+          [
+            "earned_result",
+            5
+          ],
+          [
+            "startup",
+            10
+          ],
+          [
+            "episode",
+            12
+          ]
+        ],
+        "start_frame": 3240,
+        "end_frame": 3888
+      },
+      {
+        "id": "09",
+        "duration": 23,
+        "title": "生成之后，\n才开始真正做判断",
+        "short": "这一轮留下的经验",
+        "palette": "navy",
+        "narration": [
+          "这次让我明白，故事、人物、分镜到视频和剪辑，要一步步接起来。",
+          "前面的设定先核对好，改完同步下游；动作不顺，也可以换个镜头讲。",
+          "否则，前面一个小错误，到了视频阶段，就可能变成又一次付费重做。"
+        ],
+        "shots": [
+          [
+            "connected",
+            8
+          ],
+          [
+            "lesson_replay",
+            8
+          ],
+          [
+            "closing",
+            7
+          ]
+        ],
+        "start_frame": 3888,
+        "end_frame": 4440
+      }
+    ],
+    "shots": [
+      {
+        "id": "01-hook_costume",
+        "kind": "hook_costume",
+        "duration": 3,
+        "start_frame": 0,
+        "chapter": "01"
+      },
+      {
+        "id": "02-hook_shackle",
+        "kind": "hook_shackle",
+        "duration": 3,
+        "start_frame": 72,
+        "chapter": "01"
+      },
+      {
+        "id": "03-hook_result",
+        "kind": "hook_result",
+        "duration": 4,
+        "start_frame": 144,
+        "chapter": "01"
+      },
+      {
+        "id": "04-hook_promise",
+        "kind": "hook_promise",
+        "duration": 5,
+        "start_frame": 240,
+        "chapter": "01"
+      },
+      {
+        "id": "05-prep",
+        "kind": "prep",
+        "duration": 9,
+        "start_frame": 360,
+        "chapter": "02"
+      },
+      {
+        "id": "06-tools",
+        "kind": "tools",
+        "duration": 9,
+        "start_frame": 576,
+        "chapter": "02"
+      },
+      {
+        "id": "07-build_before",
+        "kind": "build_before",
+        "duration": 6,
+        "start_frame": 792,
+        "chapter": "03"
+      },
+      {
+        "id": "08-build_after",
+        "kind": "build_after",
+        "duration": 6,
+        "start_frame": 936,
+        "chapter": "03"
+      },
+      {
+        "id": "09-era_sample",
+        "kind": "era_sample",
+        "duration": 10,
+        "start_frame": 1080,
+        "chapter": "04"
+      },
+      {
+        "id": "10-era_prompt",
+        "kind": "era_prompt",
+        "duration": 6,
+        "start_frame": 1320,
+        "chapter": "04"
+      },
+      {
+        "id": "11-era_compare",
+        "kind": "era_compare",
+        "duration": 8,
+        "start_frame": 1464,
+        "chapter": "04"
+      },
+      {
+        "id": "12-sync",
+        "kind": "sync",
+        "duration": 10,
+        "start_frame": 1656,
+        "chapter": "05"
+      },
+      {
+        "id": "13-warning",
+        "kind": "warning",
+        "duration": 10,
+        "start_frame": 1896,
+        "chapter": "05"
+      },
+      {
+        "id": "14-state",
+        "kind": "state",
+        "duration": 6,
+        "start_frame": 2136,
+        "chapter": "06"
+      },
+      {
+        "id": "15-state_detail",
+        "kind": "state_detail",
+        "duration": 8,
+        "start_frame": 2280,
+        "chapter": "06"
+      },
+      {
+        "id": "16-shackle",
+        "kind": "shackle",
+        "duration": 8,
+        "start_frame": 2472,
+        "chapter": "06"
+      },
+      {
+        "id": "17-compare",
+        "kind": "compare",
+        "duration": 12,
+        "start_frame": 2664,
+        "chapter": "07"
+      },
+      {
+        "id": "18-action",
+        "kind": "action",
+        "duration": 12,
+        "start_frame": 2952,
+        "chapter": "07"
+      },
+      {
+        "id": "19-earned_result",
+        "kind": "earned_result",
+        "duration": 5,
+        "start_frame": 3240,
+        "chapter": "08"
+      },
+      {
+        "id": "20-startup",
+        "kind": "startup",
+        "duration": 10,
+        "start_frame": 3360,
+        "chapter": "08"
+      },
+      {
+        "id": "21-episode",
+        "kind": "episode",
+        "duration": 12,
+        "start_frame": 3600,
+        "chapter": "08"
+      },
+      {
+        "id": "22-connected",
+        "kind": "connected",
+        "duration": 8,
+        "start_frame": 3888,
+        "chapter": "09"
+      },
+      {
+        "id": "23-lesson_replay",
+        "kind": "lesson_replay",
+        "duration": 8,
+        "start_frame": 4080,
+        "chapter": "09"
+      },
+      {
+        "id": "24-closing",
+        "kind": "closing",
+        "duration": 7,
+        "start_frame": 4272,
+        "chapter": "09"
+      }
+    ],
+    "captions": [
+      {
+        "start_frame": 0,
+        "end_frame": 36,
+        "text": "古装押送兵，",
+        "display_text": "古装押送兵",
+        "chapter": "01",
+        "shot": "hook_costume"
+      },
+      {
+        "start_frame": 36,
+        "end_frame": 72,
+        "text": "怎么穿成这样？",
+        "display_text": "怎么穿成这样",
+        "chapter": "01",
+        "shot": "hook_costume"
+      },
+      {
+        "start_frame": 72,
+        "end_frame": 106,
+        "text": "衣服改了，",
+        "display_text": "衣服改了",
+        "chapter": "01",
+        "shot": "hook_shackle"
+      },
+      {
+        "start_frame": 106,
+        "end_frame": 144,
+        "text": "脚镣又大成这样。",
+        "display_text": "脚镣又大成这样",
+        "chapter": "01",
+        "shot": "hook_shackle"
+      },
+      {
+        "start_frame": 144,
+        "end_frame": 181,
+        "text": "做这六十秒，",
+        "display_text": "做这六十秒",
+        "chapter": "01",
+        "shot": "hook_result"
+      },
+      {
+        "start_frame": 181,
+        "end_frame": 240,
+        "text": "我搭工作台、反复返工。",
+        "display_text": "我搭工作台、反复返工",
+        "chapter": "01",
+        "shot": "hook_result"
+      },
+      {
+        "start_frame": 240,
+        "end_frame": 320,
+        "text": "怎么做、哪里翻车、花了多少？",
+        "display_text": "怎么做、哪里翻车、花了多少",
+        "chapter": "01",
+        "shot": "hook_promise"
+      },
+      {
+        "start_frame": 320,
+        "end_frame": 360,
+        "text": "这次都讲清楚。",
+        "display_text": "这次都讲清楚",
+        "chapter": "01",
+        "shot": "hook_promise"
+      },
+      {
+        "start_frame": 360,
+        "end_frame": 412,
+        "text": "先说开工前。",
+        "display_text": "先说开工前",
+        "chapter": "02",
+        "shot": "prep"
+      },
+      {
+        "start_frame": 412,
+        "end_frame": 524,
+        "text": "故事冲突、人物场景、生成工具，",
+        "display_text": "故事冲突、人物场景、生成工具",
+        "chapter": "02",
+        "shot": "prep"
+      },
+      {
+        "start_frame": 524,
+        "end_frame": 576,
+        "text": "还有预算。",
+        "display_text": "还有预算",
+        "chapter": "02",
+        "shot": "prep"
+      },
+      {
+        "start_frame": 576,
+        "end_frame": 627,
+        "text": "文字模型整理资料，",
+        "display_text": "文字模型整理资料",
+        "chapter": "02",
+        "shot": "tools"
+      },
+      {
+        "start_frame": 627,
+        "end_frame": 673,
+        "text": "图像工具做参考，",
+        "display_text": "图像工具做参考",
+        "chapter": "02",
+        "shot": "tools"
+      },
+      {
+        "start_frame": 673,
+        "end_frame": 724,
+        "text": "视频模型生成镜头。",
+        "display_text": "视频模型生成镜头",
+        "chapter": "02",
+        "shot": "tools"
+      },
+      {
+        "start_frame": 724,
+        "end_frame": 792,
+        "text": "难点是把这些环节接起来。",
+        "display_text": "难点是把这些环节接起来",
+        "chapter": "02",
+        "shot": "tools"
+      },
+      {
+        "start_frame": 792,
+        "end_frame": 895,
+        "text": "我在LocalMiniDrama基础上，",
+        "display_text": "我在LocalMiniDrama基础上",
+        "chapter": "03",
+        "shot": "build_before"
+      },
+      {
+        "start_frame": 895,
+        "end_frame": 936,
+        "text": "继续搭建工作台。",
+        "display_text": "继续搭建工作台",
+        "chapter": "03",
+        "shot": "build_before"
+      },
+      {
+        "start_frame": 936,
+        "end_frame": 1015,
+        "text": "创作入口和制作流程顺了，",
+        "display_text": "创作入口和制作流程顺了",
+        "chapter": "03",
+        "shot": "build_after"
+      },
+      {
+        "start_frame": 1015,
+        "end_frame": 1080,
+        "text": "画面的问题才刚开始。",
+        "display_text": "画面的问题才刚开始",
+        "chapter": "03",
+        "shot": "build_after"
+      },
+      {
+        "start_frame": 1080,
+        "end_frame": 1137,
+        "text": "这就是重制前的押送兵。",
+        "display_text": "这就是重制前的押送兵",
+        "chapter": "04",
+        "shot": "era_sample"
+      },
+      {
+        "start_frame": 1137,
+        "end_frame": 1174,
+        "text": "看帽檐、立领，",
+        "display_text": "看帽檐、立领",
+        "chapter": "04",
+        "shot": "era_sample"
+      },
+      {
+        "start_frame": 1174,
+        "end_frame": 1221,
+        "text": "还有胸前的双排扣。",
+        "display_text": "还有胸前的双排扣",
+        "chapter": "04",
+        "shot": "era_sample"
+      },
+      {
+        "start_frame": 1221,
+        "end_frame": 1283,
+        "text": "古装故事里混进这套服装，",
+        "display_text": "古装故事里混进这套服装",
+        "chapter": "04",
+        "shot": "era_sample"
+      },
+      {
+        "start_frame": 1283,
+        "end_frame": 1320,
+        "text": "一眼就违和。",
+        "display_text": "一眼就违和",
+        "chapter": "04",
+        "shot": "era_sample"
+      },
+      {
+        "start_frame": 1320,
+        "end_frame": 1372,
+        "text": "查提示词才发现，",
+        "display_text": "查提示词才发现",
+        "chapter": "04",
+        "shot": "era_prompt"
+      },
+      {
+        "start_frame": 1372,
+        "end_frame": 1464,
+        "text": "润色时已经写进了近现代服制。",
+        "display_text": "润色时已经写进了近现代服制",
+        "chapter": "04",
+        "shot": "era_prompt"
+      },
+      {
+        "start_frame": 1464,
+        "end_frame": 1516,
+        "text": "先纠正时代，",
+        "display_text": "先纠正时代",
+        "chapter": "04",
+        "shot": "era_compare"
+      },
+      {
+        "start_frame": 1516,
+        "end_frame": 1567,
+        "text": "再换人物参考，",
+        "display_text": "再换人物参考",
+        "chapter": "04",
+        "shot": "era_compare"
+      },
+      {
+        "start_frame": 1567,
+        "end_frame": 1656,
+        "text": "不能把错误继续传给分镜。",
+        "display_text": "不能把错误继续传给分镜",
+        "chapter": "04",
+        "shot": "era_compare"
+      },
+      {
+        "start_frame": 1656,
+        "end_frame": 1708,
+        "text": "人物卡已经更新，",
+        "display_text": "人物卡已经更新",
+        "chapter": "05",
+        "shot": "sync"
+      },
+      {
+        "start_frame": 1708,
+        "end_frame": 1799,
+        "text": "分镜却还在用旧衣服、旧描述。",
+        "display_text": "分镜却还在用旧衣服、旧描述",
+        "chapter": "05",
+        "shot": "sync"
+      },
+      {
+        "start_frame": 1799,
+        "end_frame": 1844,
+        "text": "上游改了，",
+        "display_text": "上游改了",
+        "chapter": "05",
+        "shot": "sync"
+      },
+      {
+        "start_frame": 1844,
+        "end_frame": 1896,
+        "text": "下游没有一起变。",
+        "display_text": "下游没有一起变",
+        "chapter": "05",
+        "shot": "sync"
+      },
+      {
+        "start_frame": 1896,
+        "end_frame": 1979,
+        "text": "后来补上依赖同步，",
+        "display_text": "后来补上依赖同步",
+        "chapter": "05",
+        "shot": "warning"
+      },
+      {
+        "start_frame": 1979,
+        "end_frame": 2044,
+        "text": "让旧素材失效，",
+        "display_text": "让旧素材失效",
+        "chapter": "05",
+        "shot": "warning"
+      },
+      {
+        "start_frame": 2044,
+        "end_frame": 2136,
+        "text": "再逐镜核对新的参考。",
+        "display_text": "再逐镜核对新的参考",
+        "chapter": "05",
+        "shot": "warning"
+      },
+      {
+        "start_frame": 2136,
+        "end_frame": 2189,
+        "text": "押送中的囚犯，",
+        "display_text": "押送中的囚犯",
+        "chapter": "06",
+        "shot": "state"
+      },
+      {
+        "start_frame": 2189,
+        "end_frame": 2280,
+        "text": "脸和衣服怎么会干干净净？",
+        "display_text": "脸和衣服怎么会干干净净",
+        "chapter": "06",
+        "shot": "state"
+      },
+      {
+        "start_frame": 2280,
+        "end_frame": 2341,
+        "text": "要补污痕和磨损，",
+        "display_text": "要补污痕和磨损",
+        "chapter": "06",
+        "shot": "state_detail"
+      },
+      {
+        "start_frame": 2341,
+        "end_frame": 2472,
+        "text": "还要逐人处理木枷、脚镣和官兵状态。",
+        "display_text": "还要逐人处理木枷、脚镣和官兵状态",
+        "chapter": "06",
+        "shot": "state_detail"
+      },
+      {
+        "start_frame": 2472,
+        "end_frame": 2541,
+        "text": "可重生图又冒出了巨型脚镣。",
+        "display_text": "可重生图又冒出了巨型脚镣",
+        "chapter": "06",
+        "shot": "shackle"
+      },
+      {
+        "start_frame": 2541,
+        "end_frame": 2579,
+        "text": "一个问题修好，",
+        "display_text": "一个问题修好",
+        "chapter": "06",
+        "shot": "shackle"
+      },
+      {
+        "start_frame": 2579,
+        "end_frame": 2664,
+        "text": "并不代表下一张图就不会出新问题。",
+        "display_text": "并不代表下一张图就不会出新问题",
+        "chapter": "06",
+        "shot": "shackle"
+      },
+      {
+        "start_frame": 2664,
+        "end_frame": 2722,
+        "text": "接下来是取刀。",
+        "display_text": "接下来是取刀",
+        "chapter": "07",
+        "shot": "compare"
+      },
+      {
+        "start_frame": 2722,
+        "end_frame": 2779,
+        "text": "上面是原片，",
+        "display_text": "上面是原片",
+        "chapter": "07",
+        "shot": "compare"
+      },
+      {
+        "start_frame": 2779,
+        "end_frame": 2837,
+        "text": "下面是剪辑版。",
+        "display_text": "下面是剪辑版",
+        "chapter": "07",
+        "shot": "compare"
+      },
+      {
+        "start_frame": 2837,
+        "end_frame": 2952,
+        "text": "原片没有把连续动作交代清楚。",
+        "display_text": "原片没有把连续动作交代清楚",
+        "chapter": "07",
+        "shot": "compare"
+      },
+      {
+        "start_frame": 2952,
+        "end_frame": 3012,
+        "text": "最后切到对方的反应，",
+        "display_text": "最后切到对方的反应",
+        "chapter": "07",
+        "shot": "action"
+      },
+      {
+        "start_frame": 3012,
+        "end_frame": 3060,
+        "text": "再回到持刀结果。",
+        "display_text": "再回到持刀结果",
+        "chapter": "07",
+        "shot": "action"
+      },
+      {
+        "start_frame": 3060,
+        "end_frame": 3102,
+        "text": "故事接上了，",
+        "display_text": "故事接上了",
+        "chapter": "07",
+        "shot": "action"
+      },
+      {
+        "start_frame": 3102,
+        "end_frame": 3162,
+        "text": "但这个改善来自剪辑，",
+        "display_text": "但这个改善来自剪辑",
+        "chapter": "07",
+        "shot": "action"
+      },
+      {
+        "start_frame": 3162,
+        "end_frame": 3240,
+        "text": "并不是模型把动作做完美了。",
+        "display_text": "并不是模型把动作做完美了",
+        "chapter": "07",
+        "shot": "action"
+      },
+      {
+        "start_frame": 3240,
+        "end_frame": 3282,
+        "text": "折腾到这里，",
+        "display_text": "折腾到这里",
+        "chapter": "08",
+        "shot": "earned_result"
+      },
+      {
+        "start_frame": 3282,
+        "end_frame": 3360,
+        "text": "总算留下了这版六十秒漫剧。",
+        "display_text": "总算留下了这版六十秒漫剧",
+        "chapter": "08",
+        "shot": "earned_result"
+      },
+      {
+        "start_frame": 3360,
+        "end_frame": 3415,
+        "text": "第一次熟悉流程，",
+        "display_text": "第一次熟悉流程",
+        "chapter": "08",
+        "shot": "startup"
+      },
+      {
+        "start_frame": 3415,
+        "end_frame": 3504,
+        "text": "搭工作台、调接口、跑测试，",
+        "display_text": "搭工作台、调接口、跑测试",
+        "chapter": "08",
+        "shot": "startup"
+      },
+      {
+        "start_frame": 3504,
+        "end_frame": 3600,
+        "text": "我先充了两百元火山节省计划。",
+        "display_text": "我先充了两百元火山节省计划",
+        "chapter": "08",
+        "shot": "startup"
+      },
+      {
+        "start_frame": 3600,
+        "end_frame": 3651,
+        "text": "这版视频生成和修改，",
+        "display_text": "这版视频生成和修改",
+        "chapter": "08",
+        "shot": "episode"
+      },
+      {
+        "start_frame": 3651,
+        "end_frame": 3701,
+        "text": "又花了大概七十五元。",
+        "display_text": "又花了大概七十五元",
+        "chapter": "08",
+        "shot": "episode"
+      },
+      {
+        "start_frame": 3701,
+        "end_frame": 3802,
+        "text": "DeepSeek、MiniMax还没算。",
+        "display_text": "DeepSeek、MiniMax还没算",
+        "chapter": "08",
+        "shot": "episode"
+      },
+      {
+        "start_frame": 3802,
+        "end_frame": 3853,
+        "text": "转场和打斗想更自然，",
+        "display_text": "转场和打斗想更自然",
+        "chapter": "08",
+        "shot": "episode"
+      },
+      {
+        "start_frame": 3853,
+        "end_frame": 3888,
+        "text": "还得再投入。",
+        "display_text": "还得再投入",
+        "chapter": "08",
+        "shot": "episode"
+      },
+      {
+        "start_frame": 3888,
+        "end_frame": 3933,
+        "text": "这次让我明白，",
+        "display_text": "这次让我明白",
+        "chapter": "09",
+        "shot": "connected"
+      },
+      {
+        "start_frame": 3933,
+        "end_frame": 4029,
+        "text": "故事、人物、分镜到视频和剪辑，",
+        "display_text": "故事、人物、分镜到视频和剪辑",
+        "chapter": "09",
+        "shot": "connected"
+      },
+      {
+        "start_frame": 4029,
+        "end_frame": 4080,
+        "text": "要一步步接起来。",
+        "display_text": "要一步步接起来",
+        "chapter": "09",
+        "shot": "connected"
+      },
+      {
+        "start_frame": 4080,
+        "end_frame": 4138,
+        "text": "前面的设定先核对好，",
+        "display_text": "前面的设定先核对好",
+        "chapter": "09",
+        "shot": "lesson_replay"
+      },
+      {
+        "start_frame": 4138,
+        "end_frame": 4179,
+        "text": "改完同步下游；",
+        "display_text": "改完同步下游",
+        "chapter": "09",
+        "shot": "lesson_replay"
+      },
+      {
+        "start_frame": 4179,
+        "end_frame": 4220,
+        "text": "动作不顺，",
+        "display_text": "动作不顺",
+        "chapter": "09",
+        "shot": "lesson_replay"
+      },
+      {
+        "start_frame": 4220,
+        "end_frame": 4272,
+        "text": "也可以换个镜头讲。",
+        "display_text": "也可以换个镜头讲",
+        "chapter": "09",
+        "shot": "lesson_replay"
+      },
+      {
+        "start_frame": 4272,
+        "end_frame": 4306,
+        "text": "否则，",
+        "display_text": "否则",
+        "chapter": "09",
+        "shot": "closing"
+      },
+      {
+        "start_frame": 4306,
+        "end_frame": 4344,
+        "text": "前面一个小错误，",
+        "display_text": "前面一个小错误",
+        "chapter": "09",
+        "shot": "closing"
+      },
+      {
+        "start_frame": 4344,
+        "end_frame": 4378,
+        "text": "到了视频阶段，",
+        "display_text": "到了视频阶段",
+        "chapter": "09",
+        "shot": "closing"
+      },
+      {
+        "start_frame": 4378,
+        "end_frame": 4440,
+        "text": "就可能变成又一次付费重做。",
+        "display_text": "就可能变成又一次付费重做",
+        "chapter": "09",
+        "shot": "closing"
+      }
+    ],
+    "assets": {
+      "01-projects-before": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/01-projects-before.png",
+        "sha256": "1e2d795fe67723b2ad9405793a7d7695d83422beda8a0c49c78e40fac5f154bc",
+        "kind": "provided_historical_image"
+      },
+      "02-projects-after": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/02-projects-after.png",
+        "sha256": "a31798a8e7c08da5f03e20d1c3418f145f8ea5405e0c520ad101cde9b360ada6",
+        "kind": "provided_historical_image"
+      },
+      "03-ai-create": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/03-ai-create.png",
+        "sha256": "908c9705454fe466c9159a8e938471ee89b1c6c443d3b2f47cbc97ef1bf694b9",
+        "kind": "provided_historical_image"
+      },
+      "04-review-workbench": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/04-review-workbench.png",
+        "sha256": "49023e2dc40dcd15438c992e3e17ca7e465b2abb7147d45d6bc5221057385b32",
+        "kind": "provided_historical_image"
+      },
+      "05-storyboard": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/05-storyboard.png",
+        "sha256": "e9f04583f3347d8afb7659700d6f10d88cd0ef162716885a9f700fa67d859e5e",
+        "kind": "provided_historical_image"
+      },
+      "06-dark-theme": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/06-dark-theme.png",
+        "sha256": "ebca74ff0c87033013bab985bb575b1bafacc74307d41a6991c9909eb8efcbf0",
+        "kind": "provided_historical_image"
+      },
+      "07-mobile-create": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/07-mobile-create.png",
+        "sha256": "9b35fcdfafa88dee3816aa88b33c0b48b7db366aa9529d31fdf8df0426a8d2b0",
+        "kind": "provided_historical_image"
+      },
+      "08-film-at-07s": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/08-film-at-07s.png",
+        "sha256": "01ff622dca5798f4db6b8dd95535abe1b2f73218c66cd87f62031f660eb20cda",
+        "kind": "provided_historical_image"
+      },
+      "09-film-at-54s": {
+        "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/09-film-at-54s.png",
+        "sha256": "a7bcaacca182015f8b589ef84bda27413f758d722c01ce7404d66fc9693828d1",
+        "kind": "provided_historical_image"
+      },
+      "raw": {
+        "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0006_20260926_亡国公主·全角色重制版/videos/vg_46_ecfddff9.mp4",
+        "sha256": "e0f8d3bfef73503f7d63d8d953cba858af232354528bd6bf69d56e8ecdad2f40",
+        "kind": "original_production_media"
+      },
+      "edit": {
+        "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0006_20260926_亡国公主·全角色重制版/videos/s007-action-v05-editorial.mp4",
+        "sha256": "8a88d6ec1799f8bb073af8d1651d09a4681dab96ed1777295ab6674f3aeaff95",
+        "kind": "original_production_media"
+      },
+      "final": {
+        "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0006_20260926_亡国公主·全角色重制版/exports/action-v06/jinyang-EP01-action-v06c-720p.mp4",
+        "sha256": "b7066a812e9801f7b3d4b6ab8874a483bb52ca106851f7e07e681a48b4c16029",
+        "kind": "original_production_media"
+      },
+      "bad_shackle": {
+        "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0006_20260926_亡国公主·全角色重制版/images/ig_c179b089.jpg",
+        "sha256": "c5d5eadce7f933a645e8d4709921e328ac22c2cf0b14dc16c6bb80b72785bfc3",
+        "kind": "original_production_media"
+      },
+      "first_pass": {
+        "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/production/jinyang-rebuild-v01/contact-first-pass.jpg",
+        "sha256": "96456ab556a7e987210efe06edd2f2abb41504eec36855858ffa2ffd36f5fce6",
+        "kind": "original_production_media"
+      },
+      "wrong_soldier": {
+        "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0005_20260926_亡国公主醒来，先杀押送官/characters/ig_f4a32585.jpg",
+        "sha256": "065afc5cb081b2f43fc5cbcf2d347560fa435123f24c4089694ff08b506a59b9",
+        "kind": "original_production_media",
+        "record_id": 91,
+        "character_id": 19,
+        "project_id": 5,
+        "created_at_utc": "2026-09-26T05:14:58.121Z"
+      }
+    },
+    "billing": {
+      "source": "2026-10-08用户确认＋2026-09-30保存的v2账单",
+      "startup_plan_paid_cny": 200,
+      "episode_video_cash_approx_cny": 75,
+      "episode_duration_seconds": 60,
+      "excluded": [
+        "DeepSeek",
+        "MiniMax",
+        "人工及其他未归因费用"
+      ],
+      "scope": "前期先充值200元用于熟悉制作和搭建测试；不声称200全部已经消耗。约75元为本次火山视频现金粗估，不是所有工具全成本，不是每集固定报价。",
+      "live_refresh": "not_performed_not_required_for_user_requested_rough_recap"
+    },
+    "art_policy": "现有真实图像与源视频；本地动态构图、圈注、推近与章节转场",
+    "audio": "silent_review_draft",
+    "removed": [
+      "结尾听审评估清单",
+      "观众偏好验证步骤",
+      "整屏价格未知卡",
+      "费用记录条数",
+      "精确单次价格和40–60元试验预算卡",
+      "实时账单登录提示",
+      "整段费用审计式讲述"
+    ],
+    "user_authorization": "2026-10-08用户明确授权按讨论的钩子和叙事收尾方案修改",
+    "source_feedback": [
+      "01a11993-d9e8-70f0-8bea-ce0e6e87dfb3",
+      "01a11993-d9fa-7387-afee-55e280e6b952",
+      "01a11993-da37-78d9-a289-997cdbb82ea0"
+    ],
+    "subtitle_style": {
+      "family": "PingFang SC",
+      "weight": "Semibold",
+      "font_collection_index": 11,
+      "size_px": 36,
+      "min_size_px": 31,
+      "layout": "短句居中，白字细描边，无黑色卡片，去句尾标点",
+      "max_width_px": 648
+    },
+    "attachment_observations": {
+      "deepseek": "近30天消费2.91元；9/26提示0.19元；范围不等于本实验",
+      "minimax": "两条为9/16与9/21，标价0.0389/0.5068，券后均0；不能归为本轮费用",
+      "treatment": "保留未计入口径，不把全账户/历史金额直接摊本片"
+    },
+    "positioning": "个人OPC实验复盘：一个人尝试AI漫剧，展示真实结果、返工与投入",
+    "title": "一个人做60秒AI漫剧，为什么总在返工？",
+    "edit_structure": {
+      "opening": "0–15秒：错服装→巨型脚镣→两个成片镜头→流程/踩坑/费用承诺",
+      "middle": "15–135秒：原v08的10–130秒内容，字幕同步更新并加过渡句",
+      "ending": "135–185秒：成片→前期充值/本次费用→案例回顾与返工收获；删除三张目录式总结卡"
     }
   }
 }
