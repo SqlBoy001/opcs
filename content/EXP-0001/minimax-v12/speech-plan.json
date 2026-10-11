@@ -1,0 +1,818 @@
+[
+  {
+    "id": "01",
+    "text": "古装押送兵，怎么穿成这样？衣服改了，脚镣又大成这样。做这六十秒，我搭工作台、反复返工。怎么做、哪里翻车、花了多少？这次都讲清楚。",
+    "shots": [
+      {
+        "id": "01-hook_costume",
+        "kind": "hook_costume",
+        "duration": 3,
+        "start_frame": 0,
+        "chapter": "01",
+        "captions": [
+          {
+            "start_frame": 0,
+            "end_frame": 36,
+            "text": "古装押送兵，",
+            "display_text": "古装押送兵",
+            "chapter": "01",
+            "shot": "hook_costume"
+          },
+          {
+            "start_frame": 36,
+            "end_frame": 72,
+            "text": "怎么穿成这样？",
+            "display_text": "怎么穿成这样",
+            "chapter": "01",
+            "shot": "hook_costume"
+          }
+        ]
+      },
+      {
+        "id": "02-hook_shackle",
+        "kind": "hook_shackle",
+        "duration": 3,
+        "start_frame": 72,
+        "chapter": "01",
+        "captions": [
+          {
+            "start_frame": 72,
+            "end_frame": 106,
+            "text": "衣服改了，",
+            "display_text": "衣服改了",
+            "chapter": "01",
+            "shot": "hook_shackle"
+          },
+          {
+            "start_frame": 106,
+            "end_frame": 144,
+            "text": "脚镣又大成这样。",
+            "display_text": "脚镣又大成这样",
+            "chapter": "01",
+            "shot": "hook_shackle"
+          }
+        ]
+      },
+      {
+        "id": "03-hook_result",
+        "kind": "hook_result",
+        "duration": 4,
+        "start_frame": 144,
+        "chapter": "01",
+        "captions": [
+          {
+            "start_frame": 144,
+            "end_frame": 181,
+            "text": "做这六十秒，",
+            "display_text": "做这六十秒",
+            "chapter": "01",
+            "shot": "hook_result"
+          },
+          {
+            "start_frame": 181,
+            "end_frame": 240,
+            "text": "我搭工作台、反复返工。",
+            "display_text": "我搭工作台、反复返工",
+            "chapter": "01",
+            "shot": "hook_result"
+          }
+        ]
+      },
+      {
+        "id": "04-hook_promise",
+        "kind": "hook_promise",
+        "duration": 5,
+        "start_frame": 240,
+        "chapter": "01",
+        "captions": [
+          {
+            "start_frame": 240,
+            "end_frame": 320,
+            "text": "怎么做、哪里翻车、花了多少？",
+            "display_text": "怎么做、哪里翻车、花了多少",
+            "chapter": "01",
+            "shot": "hook_promise"
+          },
+          {
+            "start_frame": 320,
+            "end_frame": 360,
+            "text": "这次都讲清楚。",
+            "display_text": "这次都讲清楚",
+            "chapter": "01",
+            "shot": "hook_promise"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": "surprised"
+  },
+  {
+    "id": "02",
+    "text": "先说开工前。故事冲突、人物场景、生成工具，还有预算。文字模型整理资料，图像工具做参考，视频模型生成镜头。难点是把这些环节接起来。",
+    "shots": [
+      {
+        "id": "05-prep",
+        "kind": "prep",
+        "duration": 9,
+        "start_frame": 360,
+        "chapter": "02",
+        "captions": [
+          {
+            "start_frame": 360,
+            "end_frame": 412,
+            "text": "先说开工前。",
+            "display_text": "先说开工前",
+            "chapter": "02",
+            "shot": "prep"
+          },
+          {
+            "start_frame": 412,
+            "end_frame": 524,
+            "text": "故事冲突、人物场景、生成工具，",
+            "display_text": "故事冲突、人物场景、生成工具",
+            "chapter": "02",
+            "shot": "prep"
+          },
+          {
+            "start_frame": 524,
+            "end_frame": 576,
+            "text": "还有预算。",
+            "display_text": "还有预算",
+            "chapter": "02",
+            "shot": "prep"
+          }
+        ]
+      },
+      {
+        "id": "06-tools",
+        "kind": "tools",
+        "duration": 9,
+        "start_frame": 576,
+        "chapter": "02",
+        "captions": [
+          {
+            "start_frame": 576,
+            "end_frame": 627,
+            "text": "文字模型整理资料，",
+            "display_text": "文字模型整理资料",
+            "chapter": "02",
+            "shot": "tools"
+          },
+          {
+            "start_frame": 627,
+            "end_frame": 673,
+            "text": "图像工具做参考，",
+            "display_text": "图像工具做参考",
+            "chapter": "02",
+            "shot": "tools"
+          },
+          {
+            "start_frame": 673,
+            "end_frame": 724,
+            "text": "视频模型生成镜头。",
+            "display_text": "视频模型生成镜头",
+            "chapter": "02",
+            "shot": "tools"
+          },
+          {
+            "start_frame": 724,
+            "end_frame": 792,
+            "text": "难点是把这些环节接起来。",
+            "display_text": "难点是把这些环节接起来",
+            "chapter": "02",
+            "shot": "tools"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": null
+  },
+  {
+    "id": "03",
+    "text": "我在本地短剧助手的基础上，继续搭建工作台。创作入口和制作流程顺了，画面的问题才刚开始。",
+    "shots": [
+      {
+        "id": "07-build_before",
+        "kind": "build_before",
+        "duration": 6,
+        "start_frame": 792,
+        "chapter": "03",
+        "captions": [
+          {
+            "text": "我在本地短剧助手的基础上，",
+            "display_text": "我在本地短剧助手的基础上",
+            "shot": "build_before",
+            "chapter": "03"
+          },
+          {
+            "text": "继续搭建工作台。",
+            "display_text": "继续搭建工作台",
+            "shot": "build_before",
+            "chapter": "03"
+          }
+        ]
+      },
+      {
+        "id": "08-build_after",
+        "kind": "build_after",
+        "duration": 6,
+        "start_frame": 936,
+        "chapter": "03",
+        "captions": [
+          {
+            "start_frame": 936,
+            "end_frame": 1015,
+            "text": "创作入口和制作流程顺了，",
+            "display_text": "创作入口和制作流程顺了",
+            "chapter": "03",
+            "shot": "build_after"
+          },
+          {
+            "start_frame": 1015,
+            "end_frame": 1080,
+            "text": "画面的问题才刚开始。",
+            "display_text": "画面的问题才刚开始",
+            "chapter": "03",
+            "shot": "build_after"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": null
+  },
+  {
+    "id": "04",
+    "text": "这就是重制前的押送兵。看帽檐、立领，还有胸前的双排扣。古装故事里混进这套服装，一眼就违和。查提示词才发现，润色时已经写进了近现代服制。先纠正时代，再换人物参考，不能把错误继续传给分镜。",
+    "shots": [
+      {
+        "id": "09-era_sample",
+        "kind": "era_sample",
+        "duration": 10,
+        "start_frame": 1080,
+        "chapter": "04",
+        "captions": [
+          {
+            "start_frame": 1080,
+            "end_frame": 1137,
+            "text": "这就是重制前的押送兵。",
+            "display_text": "这就是重制前的押送兵",
+            "chapter": "04",
+            "shot": "era_sample"
+          },
+          {
+            "start_frame": 1137,
+            "end_frame": 1174,
+            "text": "看帽檐、立领，",
+            "display_text": "看帽檐、立领",
+            "chapter": "04",
+            "shot": "era_sample"
+          },
+          {
+            "start_frame": 1174,
+            "end_frame": 1221,
+            "text": "还有胸前的双排扣。",
+            "display_text": "还有胸前的双排扣",
+            "chapter": "04",
+            "shot": "era_sample"
+          },
+          {
+            "start_frame": 1221,
+            "end_frame": 1283,
+            "text": "古装故事里混进这套服装，",
+            "display_text": "古装故事里混进这套服装",
+            "chapter": "04",
+            "shot": "era_sample"
+          },
+          {
+            "start_frame": 1283,
+            "end_frame": 1320,
+            "text": "一眼就违和。",
+            "display_text": "一眼就违和",
+            "chapter": "04",
+            "shot": "era_sample"
+          }
+        ]
+      },
+      {
+        "id": "10-era_prompt",
+        "kind": "era_prompt",
+        "duration": 6,
+        "start_frame": 1320,
+        "chapter": "04",
+        "captions": [
+          {
+            "start_frame": 1320,
+            "end_frame": 1372,
+            "text": "查提示词才发现，",
+            "display_text": "查提示词才发现",
+            "chapter": "04",
+            "shot": "era_prompt"
+          },
+          {
+            "start_frame": 1372,
+            "end_frame": 1464,
+            "text": "润色时已经写进了近现代服制。",
+            "display_text": "润色时已经写进了近现代服制",
+            "chapter": "04",
+            "shot": "era_prompt"
+          }
+        ]
+      },
+      {
+        "id": "11-era_compare",
+        "kind": "era_compare",
+        "duration": 8,
+        "start_frame": 1464,
+        "chapter": "04",
+        "captions": [
+          {
+            "start_frame": 1464,
+            "end_frame": 1516,
+            "text": "先纠正时代，",
+            "display_text": "先纠正时代",
+            "chapter": "04",
+            "shot": "era_compare"
+          },
+          {
+            "start_frame": 1516,
+            "end_frame": 1567,
+            "text": "再换人物参考，",
+            "display_text": "再换人物参考",
+            "chapter": "04",
+            "shot": "era_compare"
+          },
+          {
+            "start_frame": 1567,
+            "end_frame": 1656,
+            "text": "不能把错误继续传给分镜。",
+            "display_text": "不能把错误继续传给分镜",
+            "chapter": "04",
+            "shot": "era_compare"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": "surprised"
+  },
+  {
+    "id": "05",
+    "text": "人物卡已经更新，分镜却还在用旧衣服、旧描述。上游改了，下游没有一起变。后来补上依赖同步，让旧素材失效，再逐镜核对新的参考。",
+    "shots": [
+      {
+        "id": "12-sync",
+        "kind": "sync",
+        "duration": 10,
+        "start_frame": 1656,
+        "chapter": "05",
+        "captions": [
+          {
+            "start_frame": 1656,
+            "end_frame": 1708,
+            "text": "人物卡已经更新，",
+            "display_text": "人物卡已经更新",
+            "chapter": "05",
+            "shot": "sync"
+          },
+          {
+            "start_frame": 1708,
+            "end_frame": 1799,
+            "text": "分镜却还在用旧衣服、旧描述。",
+            "display_text": "分镜却还在用旧衣服、旧描述",
+            "chapter": "05",
+            "shot": "sync"
+          },
+          {
+            "start_frame": 1799,
+            "end_frame": 1844,
+            "text": "上游改了，",
+            "display_text": "上游改了",
+            "chapter": "05",
+            "shot": "sync"
+          },
+          {
+            "start_frame": 1844,
+            "end_frame": 1896,
+            "text": "下游没有一起变。",
+            "display_text": "下游没有一起变",
+            "chapter": "05",
+            "shot": "sync"
+          }
+        ]
+      },
+      {
+        "id": "13-warning",
+        "kind": "warning",
+        "duration": 10,
+        "start_frame": 1896,
+        "chapter": "05",
+        "captions": [
+          {
+            "start_frame": 1896,
+            "end_frame": 1979,
+            "text": "后来补上依赖同步，",
+            "display_text": "后来补上依赖同步",
+            "chapter": "05",
+            "shot": "warning"
+          },
+          {
+            "start_frame": 1979,
+            "end_frame": 2044,
+            "text": "让旧素材失效，",
+            "display_text": "让旧素材失效",
+            "chapter": "05",
+            "shot": "warning"
+          },
+          {
+            "start_frame": 2044,
+            "end_frame": 2136,
+            "text": "再逐镜核对新的参考。",
+            "display_text": "再逐镜核对新的参考",
+            "chapter": "05",
+            "shot": "warning"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": null
+  },
+  {
+    "id": "06",
+    "text": "押送中的囚犯，脸和衣服怎么会干干净净？要补污痕和磨损，还要逐人处理木枷、脚镣和官兵状态。可重新生成的图，又冒出了巨型脚镣。一个问题修好，并不代表下一张图就不会出新问题。",
+    "shots": [
+      {
+        "id": "14-state",
+        "kind": "state",
+        "duration": 6,
+        "start_frame": 2136,
+        "chapter": "06",
+        "captions": [
+          {
+            "start_frame": 2136,
+            "end_frame": 2189,
+            "text": "押送中的囚犯，",
+            "display_text": "押送中的囚犯",
+            "chapter": "06",
+            "shot": "state"
+          },
+          {
+            "start_frame": 2189,
+            "end_frame": 2280,
+            "text": "脸和衣服怎么会干干净净？",
+            "display_text": "脸和衣服怎么会干干净净",
+            "chapter": "06",
+            "shot": "state"
+          }
+        ]
+      },
+      {
+        "id": "15-state_detail",
+        "kind": "state_detail",
+        "duration": 8,
+        "start_frame": 2280,
+        "chapter": "06",
+        "captions": [
+          {
+            "start_frame": 2280,
+            "end_frame": 2341,
+            "text": "要补污痕和磨损，",
+            "display_text": "要补污痕和磨损",
+            "chapter": "06",
+            "shot": "state_detail"
+          },
+          {
+            "start_frame": 2341,
+            "end_frame": 2472,
+            "text": "还要逐人处理木枷、脚镣和官兵状态。",
+            "display_text": "还要逐人处理木枷、脚镣和官兵状态",
+            "chapter": "06",
+            "shot": "state_detail"
+          }
+        ]
+      },
+      {
+        "id": "16-shackle",
+        "kind": "shackle",
+        "duration": 8,
+        "start_frame": 2472,
+        "chapter": "06",
+        "captions": [
+          {
+            "text": "可重新生成的图，",
+            "display_text": "可重新生成的图",
+            "shot": "shackle",
+            "chapter": "06"
+          },
+          {
+            "text": "又冒出了巨型脚镣。",
+            "display_text": "又冒出了巨型脚镣",
+            "shot": "shackle",
+            "chapter": "06"
+          },
+          {
+            "text": "一个问题修好，",
+            "display_text": "一个问题修好",
+            "shot": "shackle",
+            "chapter": "06"
+          },
+          {
+            "text": "并不代表下一张图就不会出新问题。",
+            "display_text": "并不代表下一张图就不会出新问题",
+            "shot": "shackle",
+            "chapter": "06"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": "surprised"
+  },
+  {
+    "id": "07",
+    "text": "接下来是取刀。上面是原片，下面是剪辑版。原片没有把连续动作交代清楚。最后切到对方的反应，再回到持刀结果。故事接上了，但这个改善来自剪辑，并不是模型把动作做完美了。",
+    "shots": [
+      {
+        "id": "17-compare",
+        "kind": "compare",
+        "duration": 12,
+        "start_frame": 2664,
+        "chapter": "07",
+        "captions": [
+          {
+            "start_frame": 2664,
+            "end_frame": 2722,
+            "text": "接下来是取刀。",
+            "display_text": "接下来是取刀",
+            "chapter": "07",
+            "shot": "compare"
+          },
+          {
+            "start_frame": 2722,
+            "end_frame": 2779,
+            "text": "上面是原片，",
+            "display_text": "上面是原片",
+            "chapter": "07",
+            "shot": "compare"
+          },
+          {
+            "start_frame": 2779,
+            "end_frame": 2837,
+            "text": "下面是剪辑版。",
+            "display_text": "下面是剪辑版",
+            "chapter": "07",
+            "shot": "compare"
+          },
+          {
+            "start_frame": 2837,
+            "end_frame": 2952,
+            "text": "原片没有把连续动作交代清楚。",
+            "display_text": "原片没有把连续动作交代清楚",
+            "chapter": "07",
+            "shot": "compare"
+          }
+        ]
+      },
+      {
+        "id": "18-action",
+        "kind": "action",
+        "duration": 12,
+        "start_frame": 2952,
+        "chapter": "07",
+        "captions": [
+          {
+            "start_frame": 2952,
+            "end_frame": 3012,
+            "text": "最后切到对方的反应，",
+            "display_text": "最后切到对方的反应",
+            "chapter": "07",
+            "shot": "action"
+          },
+          {
+            "start_frame": 3012,
+            "end_frame": 3060,
+            "text": "再回到持刀结果。",
+            "display_text": "再回到持刀结果",
+            "chapter": "07",
+            "shot": "action"
+          },
+          {
+            "start_frame": 3060,
+            "end_frame": 3102,
+            "text": "故事接上了，",
+            "display_text": "故事接上了",
+            "chapter": "07",
+            "shot": "action"
+          },
+          {
+            "start_frame": 3102,
+            "end_frame": 3162,
+            "text": "但这个改善来自剪辑，",
+            "display_text": "但这个改善来自剪辑",
+            "chapter": "07",
+            "shot": "action"
+          },
+          {
+            "start_frame": 3162,
+            "end_frame": 3240,
+            "text": "并不是模型把动作做完美了。",
+            "display_text": "并不是模型把动作做完美了",
+            "chapter": "07",
+            "shot": "action"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": null
+  },
+  {
+    "id": "08",
+    "text": "折腾到这里，留下了这版六十秒检查版。九月的火山账户金额，是二百七十四元九角二分，其中两百元是节省计划。这版视频生成和修改，大概花了七十五元。",
+    "shots": [
+      {
+        "id": "19-earned_result",
+        "kind": "earned_result",
+        "duration": 5,
+        "start_frame": 3240,
+        "chapter": "08",
+        "captions": [
+          {
+            "text": "折腾到这里，",
+            "display_text": "折腾到这里",
+            "shot": "earned_result",
+            "chapter": "08"
+          },
+          {
+            "text": "留下了这版六十秒检查版。",
+            "display_text": "留下了这版六十秒检查版",
+            "shot": "earned_result",
+            "chapter": "08"
+          }
+        ]
+      },
+      {
+        "id": "20-startup",
+        "kind": "startup",
+        "duration": 10,
+        "start_frame": 3360,
+        "chapter": "08",
+        "captions": [
+          {
+            "text": "九月的火山账户金额，",
+            "display_text": "九月的火山账户金额",
+            "shot": "startup",
+            "chapter": "08"
+          },
+          {
+            "text": "是二百七十四元九角二分，",
+            "display_text": "是二百七十四元九角二分",
+            "shot": "startup",
+            "chapter": "08"
+          },
+          {
+            "text": "其中两百元是节省计划。",
+            "display_text": "其中两百元是节省计划",
+            "shot": "startup",
+            "chapter": "08"
+          }
+        ]
+      },
+      {
+        "id": "21-episode",
+        "kind": "episode",
+        "duration": 12,
+        "start_frame": 3600,
+        "chapter": "08",
+        "captions": [
+          {
+            "text": "这版视频生成和修改，",
+            "display_text": "这版视频生成和修改",
+            "shot": "episode",
+            "chapter": "08"
+          },
+          {
+            "text": "大概花了七十五元。",
+            "display_text": "大概花了七十五元",
+            "shot": "episode",
+            "chapter": "08"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": "happy"
+  },
+  {
+    "id": "09",
+    "text": "这次让我明白，故事、人物、分镜到视频和剪辑，要一步步接起来。前面的设定先核对好，改完同步下游；动作不顺，也可以换个镜头讲。否则，前面一个小错误，到了视频阶段，就可能变成又一次付费重做。",
+    "shots": [
+      {
+        "id": "22-connected",
+        "kind": "connected",
+        "duration": 8,
+        "start_frame": 3888,
+        "chapter": "09",
+        "captions": [
+          {
+            "start_frame": 3888,
+            "end_frame": 3933,
+            "text": "这次让我明白，",
+            "display_text": "这次让我明白",
+            "chapter": "09",
+            "shot": "connected"
+          },
+          {
+            "start_frame": 3933,
+            "end_frame": 4029,
+            "text": "故事、人物、分镜到视频和剪辑，",
+            "display_text": "故事、人物、分镜到视频和剪辑",
+            "chapter": "09",
+            "shot": "connected"
+          },
+          {
+            "start_frame": 4029,
+            "end_frame": 4080,
+            "text": "要一步步接起来。",
+            "display_text": "要一步步接起来",
+            "chapter": "09",
+            "shot": "connected"
+          }
+        ]
+      },
+      {
+        "id": "23-lesson_replay",
+        "kind": "lesson_replay",
+        "duration": 8,
+        "start_frame": 4080,
+        "chapter": "09",
+        "captions": [
+          {
+            "start_frame": 4080,
+            "end_frame": 4138,
+            "text": "前面的设定先核对好，",
+            "display_text": "前面的设定先核对好",
+            "chapter": "09",
+            "shot": "lesson_replay"
+          },
+          {
+            "start_frame": 4138,
+            "end_frame": 4179,
+            "text": "改完同步下游；",
+            "display_text": "改完同步下游",
+            "chapter": "09",
+            "shot": "lesson_replay"
+          },
+          {
+            "start_frame": 4179,
+            "end_frame": 4220,
+            "text": "动作不顺，",
+            "display_text": "动作不顺",
+            "chapter": "09",
+            "shot": "lesson_replay"
+          },
+          {
+            "start_frame": 4220,
+            "end_frame": 4272,
+            "text": "也可以换个镜头讲。",
+            "display_text": "也可以换个镜头讲",
+            "chapter": "09",
+            "shot": "lesson_replay"
+          }
+        ]
+      },
+      {
+        "id": "24-closing",
+        "kind": "closing",
+        "duration": 7,
+        "start_frame": 4272,
+        "chapter": "09",
+        "captions": [
+          {
+            "text": "否则，前面一个小错误，",
+            "display_text": "否则，前面一个小错误",
+            "shot": "closing",
+            "chapter": "09"
+          },
+          {
+            "text": "到了视频阶段，",
+            "display_text": "到了视频阶段",
+            "shot": "closing",
+            "chapter": "09"
+          },
+          {
+            "text": "就可能变成又一次付费重做。",
+            "display_text": "就可能变成又一次付费重做",
+            "shot": "closing",
+            "chapter": "09"
+          }
+        ]
+      }
+    ],
+    "speed": 1.12,
+    "emotion": "happy"
+  }
+]

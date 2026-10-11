@@ -1,0 +1,108 @@
+{
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+  "speed": 1.12,
+  "calls": 10,
+  "usage_characters": 1338,
+  "rate_cny_per_10000": 3.5,
+  "rate_source": "https://platform.minimax.cn/docs/guides/pricing-paygo",
+  "currency": "CNY",
+  "actual_account_charge": null,
+  "account_charge_note": "No readable billing reconciliation obtained; calculated amount is published-rate estimate, not verified cash charge",
+  "requests": [
+    {
+      "chapter": "01",
+      "trace_id": "071a52c300987c1efa5d1861f851febe",
+      "usage_characters": 117,
+      "audio_length_ms": 12744,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "surprised"
+    },
+    {
+      "chapter": "02",
+      "trace_id": "071a53732b587384e4e56758f5853db5",
+      "usage_characters": 119,
+      "audio_length_ms": 13392,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "auto"
+    },
+    {
+      "chapter": "03",
+      "trace_id": "071a53753f043410d9412d1af1d2e9b2",
+      "usage_characters": 82,
+      "audio_length_ms": 7956,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "auto"
+    },
+    {
+      "chapter": "04",
+      "trace_id": "071a537734c592921e6ed82aee771fef",
+      "usage_characters": 173,
+      "audio_length_ms": 16920,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "surprised"
+    },
+    {
+      "chapter": "05",
+      "trace_id": "071a5379c084f0ff3bfc12142545c94d",
+      "usage_characters": 114,
+      "audio_length_ms": 13464,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "auto"
+    },
+    {
+      "chapter": "06",
+      "trace_id": "071a537b463b95ddb9b5b529a94078ea",
+      "usage_characters": 159,
+      "audio_length_ms": 16128,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "surprised"
+    },
+    {
+      "chapter": "07",
+      "trace_id": "071a537d0d0a995bbd89c89228dde19b",
+      "usage_characters": 153,
+      "audio_length_ms": 16560,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "auto"
+    },
+    {
+      "chapter": "08",
+      "trace_id": "071a537fdffdadf82415445253148150",
+      "usage_characters": 133,
+      "audio_length_ms": 12024,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "happy"
+    },
+    {
+      "chapter": "09",
+      "trace_id": "071a5381071e6af0f14a96c3ca85bdc8",
+      "usage_characters": 171,
+      "audio_length_ms": 17568,
+      "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "speed": 1.12,
+      "emotion": "happy"
+    }
+  ],
+  "additional_samples": [
+    {
+      "sample": "01B.receipt",
+      "trace_id": "071a52c6fd43cef3538fa758dd1fbe84",
+      "usage_characters": 117,
+      "voice": "Chinese (Mandarin)_Sincere_Adult",
+      "speed": 1.12,
+      "emotion": "happy"
+    }
+  ],
+  "narration_calls": 9,
+  "estimated_cny": 0.4683
+}

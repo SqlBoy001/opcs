@@ -1,0 +1,53 @@
+{
+  "ACTIVE_PROJECT": "ai-drama-stadio",
+  "goal": "Shorten cost discussion per user screenshot and deliver quicker, more expressive Mandarin narration",
+  "authorization": "User 2026-10-11 requests approximate CNY75 line and removing audit caveats from video; faster more human-like MiniMax voice",
+  "allowed_paths": [
+    "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v12-expressive",
+    "opcs/content/EXP-0001"
+  ],
+  "factual_policy": "User-facing cost line is approximate selected video generation/modification spend, not a claim about audited full project cost. Full v2 limitations remain in production records.",
+  "api_budget_policy": "One full narration version plus two short voice candidates; no automatic paid retries; no voice clone/design or subscription",
+  "agent_runtime_cost": "unknown",
+  "source_root": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v11-minimax",
+  "independent_qa": false,
+  "business_verify": "PARTIAL",
+  "duration_seconds": 129.16666666666666,
+  "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+  "model": "speech-2.8-hd",
+  "speed": 1.12,
+  "selected_candidate": "A; advanced after optional preference window, no affirmative user selection received",
+  "emotion_by_chapter": {
+    "01": "surprised",
+    "02": "auto",
+    "03": "auto",
+    "04": "surprised",
+    "05": "auto",
+    "06": "surprised",
+    "07": "auto",
+    "08": "happy",
+    "09": "happy"
+  },
+  "paid_api_calls": 10,
+  "estimated_cny": 0.4683,
+  "actual_charge_cny": null,
+  "caption_count": 70,
+  "skill": "adu-motion-video@3.14.0-rc.1",
+  "new_screen_recording": false,
+  "original_versions_preserved": true,
+  "business_full_qa_additional": 0,
+  "handoffs_additional": 0,
+  "same_opening_duration_seconds": {
+    "v11_sincere_speed_0_98": 16.056,
+    "v12_A_speed_1_12_surprised": 12.744,
+    "v12_B_speed_1_12_happy": 11.16
+  },
+  "note": "Full video duration change combines narration tempo, selected voice/emotions and script cuts; not attributable solely to speed setting.",
+  "delivery_status": "ready_for_human_review",
+  "verification_record": "checks.json",
+  "artifacts": [
+    "OPC-3-v12-expressive-1080p.mp4",
+    "OPC-3-v12-expressive-review-720p.mp4",
+    "OPC-3-v12-expressive-voice.mp3"
+  ]
+}

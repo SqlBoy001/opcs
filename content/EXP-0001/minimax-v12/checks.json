@@ -1,0 +1,68 @@
+{
+  "type": "targeted content producer self-check",
+  "independent_qa": false,
+  "duration_seconds": 129.16666666666666,
+  "shots": 24,
+  "captions": 70,
+  "exact_provider_text_coverage": true,
+  "timestamp_source": "MiniMax timestamped_words",
+  "subtitle_overlap": false,
+  "shot_gaps": false,
+  "minimum_caption_seconds": 0.8000000000000007,
+  "comparison_source_speed": "24fps original speed with at least 6 seconds playback",
+  "reviewed_stills": 16,
+  "visual_observation": "No obvious caption cutoff or overlap in inspected stills; cost page shows approx CNY75; requested audit notes absent",
+  "subjective_listening": "pending human listening; voice emotion parameters are not proof of perceived naturalness",
+  "video_checks": "passed: full decode, streams, duration, loudness/peak; not subjective listening",
+  "v11_original_hashes_unchanged": true,
+  "files": [
+    {
+      "file": "OPC-3-v12-expressive-1080p.mp4",
+      "bytes": 24544054,
+      "sha256": "3b7c8012d2b01b60070e23a0e2fa7f42185601f47a20d6b57336b44a806d4af1",
+      "width": 1080,
+      "height": 1920,
+      "fps": "60/1",
+      "duration": "129.166667",
+      "audio_codec": "aac",
+      "sample_rate": "48000",
+      "decode": "passed",
+      "loudness": {
+        "input_i": "-15.50",
+        "input_tp": "-1.13",
+        "input_lra": "4.50",
+        "input_thresh": "-26.34",
+        "output_i": "-15.88",
+        "output_tp": "-1.50",
+        "output_lra": "4.10",
+        "output_thresh": "-26.69",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.12"
+      }
+    },
+    {
+      "file": "OPC-3-v12-expressive-review-720p.mp4",
+      "bytes": 5280895,
+      "sha256": "e52ff477cdea6f83302e7d49941f29a5f35d92984bda70e9462825a40c9b5d0e",
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "duration": "129.166667",
+      "audio_codec": "aac",
+      "sample_rate": "48000",
+      "decode": "passed",
+      "loudness": {
+        "input_i": "-15.55",
+        "input_tp": "-0.89",
+        "input_lra": "4.50",
+        "input_thresh": "-26.38",
+        "output_i": "-15.89",
+        "output_tp": "-1.50",
+        "output_lra": "4.10",
+        "output_thresh": "-26.70",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.11"
+      }
+    }
+  ]
+}

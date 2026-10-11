@@ -1,0 +1,22 @@
+{
+  "base_resp": {
+    "status_code": 0,
+    "status_msg": "success"
+  },
+  "trace_id": "071a537b463b95ddb9b5b529a94078ea",
+  "extra_info": {
+    "audio_length": 16128,
+    "audio_sample_rate": 32000,
+    "audio_size": 259764,
+    "bitrate": 128000,
+    "word_count": 84,
+    "invisible_character_ratio": 0,
+    "usage_characters": 159,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "model": "speech-2.8-hd",
+  "voice": "Chinese (Mandarin)_Unrestrained_Young_Man",
+  "speed": 1.12,
+  "emotion": "surprised"
+}
