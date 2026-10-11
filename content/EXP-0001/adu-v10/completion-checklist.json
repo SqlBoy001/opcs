@@ -1,0 +1,60 @@
+{
+  "Completed": [
+    "安装 adu-motion-video 3.14.0-rc.1，环境 doctor 通过",
+    "完整 129 秒竖屏动态旁白版",
+    "73 条字幕使用真实音频边界",
+    "真实样本圈注、前后对照、动作剪辑对照",
+    "费用与收尾沿用用户确认口径",
+    "新增旁白、原创合成配乐与31个音效事件"
+  ],
+  "Changed Files": [
+    "project/scenes.js",
+    "project/timeline.json",
+    "project/config.js",
+    "project/style.css",
+    "project/caption-theme.js",
+    "project/voice.wav",
+    "project/audio.py",
+    "project/mix_recipe.json",
+    "subtitles.srt",
+    "voiceover.txt",
+    "opcs/content/EXP-0001/content.json"
+  ],
+  "Verification": {
+    "master": {
+      "decode": "passed",
+      "frames": 7765,
+      "fps": 60,
+      "loudness_lufs": -15.7,
+      "true_peak_dbtp": -1.08
+    },
+    "review": {
+      "decode": "passed",
+      "frames": 3883,
+      "fps": 30,
+      "loudness_lufs": -15.75,
+      "true_peak_dbtp": -0.64
+    },
+    "caption_count": 73,
+    "geometry": "no overflow / text collision",
+    "original_assets_unchanged": 15,
+    "original_v09_unchanged": true,
+    "commands": [
+      "pipeline.py doctor",
+      "pipeline.py audio",
+      "pipeline.py mix",
+      "pipeline.py render",
+      "pipeline.py stills",
+      "pipeline.py preview",
+      "verify.py: ffprobe + full ffmpeg decode + loudnorm measurements",
+      "git diff --check"
+    ]
+  },
+  "Known Issues": [
+    "Eddy 音色自然度、分句停顿和音乐舒适度尚未主观听审",
+    "原 final/edit 缺少色彩元数据：按 SDR 假设导入并做直接解码对照，不属于专业原生播放器色彩认证",
+    "完整宏模板需要真人素材，本次使用该 skill 的自定义 Scene 接口",
+    "首次验证脚本遇到 FFmpeg 9 日志尾部解析问题，修正解析后重新检查通过"
+  ],
+  "Next Step": "请连续观看/试听 v10；重点确认旁白语速、费用收尾和动态样本是否比 v09 自然。"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "content-producer self-check",
+  "independent_qa": false,
+  "subjective_listening": "not_performed; human review requested",
+  "files": [
+    {
+      "path": "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10/OPC-2-v10-adu-motion-129s.mp4",
+      "bytes": 25935579,
+      "sha256": "2158e37f6493f2cdbb68cd0858eb4785ad657b13da61844df0e176d25c9f7abb",
+      "width": 1080,
+      "height": 1920,
+      "fps": "60/1",
+      "frames": "7765",
+      "duration": "129.416667",
+      "audio_codec": "aac",
+      "audio_sample_rate": "48000",
+      "loudness": {
+        "input_i": "-15.70",
+        "input_tp": "-1.08",
+        "input_lra": "1.70",
+        "input_thresh": "-26.13",
+        "output_i": "-15.57",
+        "output_tp": "-1.20",
+        "output_lra": "1.60",
+        "output_thresh": "-25.97",
+        "normalization_type": "dynamic",
+        "target_offset": "0.07"
+      },
+      "full_decode": "passed",
+      "color": {
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709"
+      }
+    },
+    {
+      "path": "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10/OPC-2-v10-review-720p.mp4",
+      "bytes": 4346758,
+      "sha256": "dfb499e91020a79f0a2d60d78ae7ce947b8520fdc87628ce8ce905734445a70f",
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "frames": "3883",
+      "duration": "129.433333",
+      "audio_codec": "aac",
+      "audio_sample_rate": "48000",
+      "loudness": {
+        "input_i": "-15.75",
+        "input_tp": "-0.64",
+        "input_lra": "1.60",
+        "input_thresh": "-26.19",
+        "output_i": "-15.57",
+        "output_tp": "-1.20",
+        "output_lra": "1.70",
+        "output_thresh": "-25.97",
+        "normalization_type": "dynamic",
+        "target_offset": "0.07"
+      },
+      "full_decode": "passed",
+      "color": {
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709"
+      }
+    }
+  ],
+  "v09_original_sha256": "3ae4cb5b966d67d072efe025c6d29512d4b65a26c8bac86ea01f94ab4dc21d04",
+  "caption_geometry": {
+    "captionCount": 73,
+    "collisions": [],
+    "outside": [],
+    "overflow": []
+  },
+  "source_text_preserved": true,
+  "audio_caption_method": "73 individually generated real audio files; measured sample boundaries; no inferred word timestamps",
+  "chapters": 9,
+  "shots": 24,
+  "paid_api_calls": 0
+}

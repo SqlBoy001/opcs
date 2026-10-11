@@ -1,0 +1,35 @@
+[
+  {
+    "sourceSha256": "b7066a812e9801f7b3d4b6ab8874a483bb52ca106851f7e07e681a48b4c16029",
+    "decision": "accepted_for_review_draft",
+    "reviewer": "OPC content agent (self-check)",
+    "reference": "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10/color-review/final-compare.jpg",
+    "method": "Visual comparison of direct FFmpeg decode and managed sRGB import at same source time",
+    "notes": "Faces, costumes, sky and overall exposure remain visually consistent; small SDR gamma differences. Original final/edit metadata absent: SDR assumption retained, not native-player color certification.",
+    "acceptedSignals": [
+      "assumed-sdr-metadata"
+    ]
+  },
+  {
+    "sourceSha256": "e0f8d3bfef73503f7d63d8d953cba858af232354528bd6bf69d56e8ecdad2f40",
+    "decision": "accepted_for_review_draft",
+    "reviewer": "OPC content agent (self-check)",
+    "reference": "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10/color-review/raw-compare.jpg",
+    "method": "Visual comparison of direct FFmpeg decode and managed sRGB import at same source time",
+    "notes": "Faces, costumes, sky and overall exposure remain visually consistent; small SDR gamma differences. Original final/edit metadata absent: SDR assumption retained, not native-player color certification.",
+    "acceptedSignals": [
+      "assumed-sdr-metadata"
+    ]
+  },
+  {
+    "sourceSha256": "8a88d6ec1799f8bb073af8d1651d09a4681dab96ed1777295ab6674f3aeaff95",
+    "decision": "accepted_for_review_draft",
+    "reviewer": "OPC content agent (self-check)",
+    "reference": "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10/color-review/edit-compare.jpg",
+    "method": "Visual comparison of direct FFmpeg decode and managed sRGB import at same source time",
+    "notes": "Faces, costumes, sky and overall exposure remain visually consistent; small SDR gamma differences. Original final/edit metadata absent: SDR assumption retained, not native-player color certification.",
+    "acceptedSignals": [
+      "assumed-sdr-metadata"
+    ]
+  }
+]

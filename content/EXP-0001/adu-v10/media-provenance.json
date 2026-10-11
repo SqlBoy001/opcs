@@ -1,0 +1,194 @@
+[
+  {
+    "file": "assets/soldier.jpg",
+    "source": {
+      "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0005_20260926_亡国公主醒来，先杀押送官/characters/ig_f4a32585.jpg",
+      "sha256": "065afc5cb081b2f43fc5cbcf2d347560fa435123f24c4089694ff08b506a59b9",
+      "kind": "original_production_media",
+      "record_id": 91,
+      "character_id": 19,
+      "project_id": 5,
+      "created_at_utc": "2026-09-26T05:14:58.121Z"
+    },
+    "crop": [
+      900,
+      80,
+      1530,
+      1440
+    ]
+  },
+  {
+    "file": "assets/prompt.jpg",
+    "source": {
+      "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0005_20260926_亡国公主醒来，先杀押送官/characters/ig_f4a32585.jpg",
+      "sha256": "065afc5cb081b2f43fc5cbcf2d347560fa435123f24c4089694ff08b506a59b9",
+      "kind": "original_production_media",
+      "record_id": 91,
+      "character_id": 19,
+      "project_id": 5,
+      "created_at_utc": "2026-09-26T05:14:58.121Z"
+    },
+    "crop": [
+      0,
+      85,
+      880,
+      1470
+    ]
+  },
+  {
+    "file": "assets/correct.jpg",
+    "source": {
+      "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/production/jinyang-rebuild-v01/contact-first-pass.jpg",
+      "sha256": "96456ab556a7e987210efe06edd2f2abb41504eec36855858ffa2ffd36f5fce6",
+      "kind": "original_production_media"
+    },
+    "crop": [
+      0,
+      3120,
+      240,
+      3640
+    ]
+  },
+  {
+    "file": "assets/shackle.jpg",
+    "source": {
+      "path": "/Users/shenzihao/Documents/ChatGPT/AI_Drama/backend-node/data/storage/projects/0006_20260926_亡国公主·全角色重制版/images/ig_c179b089.jpg",
+      "sha256": "c5d5eadce7f933a645e8d4709921e328ac22c2cf0b14dc16c6bb80b72785bfc3",
+      "kind": "original_production_media"
+    },
+    "crop": [
+      900,
+      530,
+      1750,
+      1420
+    ]
+  },
+  {
+    "file": "assets/storyboard.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/05-storyboard.png",
+      "sha256": "e9f04583f3347d8afb7659700d6f10d88cd0ef162716885a9f700fa67d859e5e",
+      "kind": "provided_historical_image"
+    },
+    "crop": [
+      232,
+      112,
+      1000,
+      813
+    ]
+  },
+  {
+    "file": "assets/state.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/08-film-at-07s.png",
+      "sha256": "01ff622dca5798f4db6b8dd95535abe1b2f73218c66cd87f62031f660eb20cda",
+      "kind": "provided_historical_image"
+    },
+    "crop": [
+      440,
+      15,
+      1210,
+      720
+    ]
+  },
+  {
+    "file": "assets/stateleg.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/08-film-at-07s.png",
+      "sha256": "01ff622dca5798f4db6b8dd95535abe1b2f73218c66cd87f62031f660eb20cda",
+      "kind": "provided_historical_image"
+    },
+    "crop": [
+      560,
+      100,
+      1020,
+      715
+    ]
+  },
+  {
+    "file": "assets/statecollar.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/09-film-at-54s.png",
+      "sha256": "a7bcaacca182015f8b589ef84bda27413f758d722c01ce7404d66fc9693828d1",
+      "kind": "provided_historical_image"
+    },
+    "crop": [
+      730,
+      70,
+      1070,
+      720
+    ]
+  },
+  {
+    "file": "assets/01-projects-before.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/01-projects-before.png",
+      "sha256": "1e2d795fe67723b2ad9405793a7d7695d83422beda8a0c49c78e40fac5f154bc",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/02-projects-after.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/02-projects-after.png",
+      "sha256": "a31798a8e7c08da5f03e20d1c3418f145f8ea5405e0c520ad101cde9b360ada6",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/03-ai-create.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/03-ai-create.png",
+      "sha256": "908c9705454fe466c9159a8e938471ee89b1c6c443d3b2f47cbc97ef1bf694b9",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/04-review-workbench.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/04-review-workbench.png",
+      "sha256": "49023e2dc40dcd15438c992e3e17ca7e465b2abb7147d45d6bc5221057385b32",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/05-storyboard.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/05-storyboard.png",
+      "sha256": "e9f04583f3347d8afb7659700d6f10d88cd0ef162716885a9f700fa67d859e5e",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/06-dark-theme.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/06-dark-theme.png",
+      "sha256": "ebca74ff0c87033013bab985bb575b1bafacc74307d41a6991c9909eb8efcbf0",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/08-film-at-07s.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/08-film-at-07s.png",
+      "sha256": "01ff622dca5798f4db6b8dd95535abe1b2f73218c66cd87f62031f660eb20cda",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  },
+  {
+    "file": "assets/09-film-at-54s.jpg",
+    "source": {
+      "path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/workdir/opcs/content/EXP-0001/explained-v06/assets/09-film-at-54s.png",
+      "sha256": "a7bcaacca182015f8b589ef84bda27413f758d722c01ce7404d66fc9693828d1",
+      "kind": "provided_historical_image"
+    },
+    "crop": null
+  }
+]

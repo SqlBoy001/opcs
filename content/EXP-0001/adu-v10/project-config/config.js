@@ -1,0 +1,1 @@
+window.CONFIG={"brand": "OPC 实验记录", "demo": false, "fps": 60, "width": 1080, "height": 1920, "end": 129.41666666666666, "subtitles": true, "subtitlePreset": "standard", "subtitleStyle": {"zhSize": 48}, "subtitlePosition": {"bottomRatio": 0.12, "leftRatio": 0.085, "rightRatio": 0.085}, "race": {"labels": [], "keys": []}};

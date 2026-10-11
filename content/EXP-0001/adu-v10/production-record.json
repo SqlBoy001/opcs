@@ -1,0 +1,34 @@
+{
+  "ACTIVE_PROJECT": "ai-drama-stadio",
+  "goal": "Use adu-motion-video to improve v09 as a full narrated motion draft",
+  "allowed_paths": [
+    "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10",
+    "opcs/content/EXP-0001",
+    "installed adu-motion-video skill and dependencies"
+  ],
+  "acceptance": [
+    "original assets preserved",
+    "real audio and aligned captions",
+    "animated evidence scenes",
+    "truthful costs",
+    "decodable MP4 and editable project"
+  ],
+  "paid_api_budget_cny": 0,
+  "skill_version": "3.14.0-rc.1",
+  "entry": "pipeline new + documented custom Scene API + audio/mix/render/check",
+  "route_reason": "all 13 editorial groups require presenter; use documented custom Scene for voiceover-only footage",
+  "review": "content producer self-check; subjective listening pending",
+  "skill_path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/codex-home/skills/adu-motion-video",
+  "skill_sha256": "b6c1d15ff149a00d015af3b96128596a364184471c6a682f00f96138a4e1e771",
+  "ffmpeg": "9.0.2 Homebrew",
+  "voice": "macOS Eddy zh_CN; 220 rate; 73 measured phrase files",
+  "duration_seconds": 129.41666666666666,
+  "original_duration_seconds": 185,
+  "original_mp4_unchanged_sha256": "3ae4cb5b966d67d072efe025c6d29512d4b65a26c8bac86ea01f94ab4dc21d04",
+  "music": "original procedural 84 BPM underscore; compose_music.py",
+  "paid_api_calls": 0,
+  "api_cost_cny": 0,
+  "template_route": "documented custom Scene API; not an entire 01-D macro pack",
+  "caption_geometry": "73 cues: no overflow, no visible heading/note collisions",
+  "font": "PingFang SC semibold; dark ink on light scene, white on dark scene"
+}

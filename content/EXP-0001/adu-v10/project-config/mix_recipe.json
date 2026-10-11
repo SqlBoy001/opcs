@@ -1,0 +1,14 @@
+{
+  "schema": "adu-mix/1",
+  "durationSeconds": 129.41666666666666,
+  "musicVolume": 0.1,
+  "voiceMode": "file",
+  "filterComplex": "[0:a]apad,highpass=f=70,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=120,loudnorm=I=-16:TP=-1.5:LRA=9,asplit=3[v][vsc][vsc2];[1:a]volume=1.0[sh0];[sh0][vsc2]sidechaincompress=threshold=0.02:ratio=8:attack=15:release=350[sh];[2:a]volume=0.1[b];[b][vsc]sidechaincompress=threshold=0.05:ratio=3:attack=30:release=450[bd];[3:a]volume=0.5,highpass=f=60[s];[v][sh][bd][s]amix=inputs=4:normalize=0:duration=longest,atrim=0:129.41666666666666,alimiter=limit=0.92:level=false,loudnorm=I=-15.5:TP=-1.2:LRA=9,aresample=48000[out]",
+  "fileSha256": {
+    "voice.wav": "21b0ec9632bbc5dee5dd9a2b40c7b004672668d571c00b5335f33df4af529236",
+    "bgm.wav": "7b1881a924a130eaad9480aa7aad218682e7b9bfc78063f315a0352b74fbc323",
+    "sfx.wav": "8ba4216fb43f8d48319bcc4da9c6b8c68d1b09782c92ab3e3912d653e5a3996d",
+    "mix.wav": "02ecec4d276cc6800402c2b6451f0901b747296d9c609369bc02774837d03c75"
+  },
+  "ffmpegVersion": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}
