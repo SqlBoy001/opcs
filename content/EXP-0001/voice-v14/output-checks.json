@@ -1,0 +1,35 @@
+{
+  "master": {
+    "path": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v14-F/OPC-3-v14-F-1080p.mp4",
+    "bytes": 15936265,
+    "duration_seconds": 120.576,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "fps": "30/1",
+    "frames": 3617,
+    "decode": "passed",
+    "sha256": "e5f3e01bb6d81b39bb6d87be26c0889e6736b92062ea6c4ba0f1307643ac4032"
+  },
+  "chat_copy": {
+    "path": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v14-F/OPC-3-v14-F-完整版.mp4",
+    "bytes": 9574198,
+    "duration_seconds": 120.576,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "fps": "30/1",
+    "frames": 3617,
+    "decode": "passed",
+    "sha256": "bd92e6a3aad9dd9e2b6fac55d4facace50df785b94c656a06421db486e6dee5d"
+  },
+  "self_check": true,
+  "human_full_listening": "pending",
+  "targeted_checks_only": true
+}

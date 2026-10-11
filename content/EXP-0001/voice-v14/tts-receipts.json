@@ -1,0 +1,200 @@
+[
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabee1c58ee2e386b2b3166bc9079",
+    "extra_info": {
+      "audio_length": 11052,
+      "audio_sample_rate": 32000,
+      "audio_size": 178548,
+      "bitrate": 128000,
+      "word_count": 64,
+      "invisible_character_ratio": 0,
+      "usage_characters": 117,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabeff9d0a78a84fa57e49515f583",
+    "extra_info": {
+      "audio_length": 11772,
+      "audio_sample_rate": 32000,
+      "audio_size": 190068,
+      "bitrate": 128000,
+      "word_count": 64,
+      "invisible_character_ratio": 0,
+      "usage_characters": 119,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabf113e7a15e52705e1dc17f0a67",
+    "extra_info": {
+      "audio_length": 7200,
+      "audio_sample_rate": 32000,
+      "audio_size": 116916,
+      "bitrate": 128000,
+      "word_count": 43,
+      "invisible_character_ratio": 0,
+      "usage_characters": 82,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabf23402c76c1f5439a67dca72a0",
+    "extra_info": {
+      "audio_length": 17244,
+      "audio_sample_rate": 32000,
+      "audio_size": 277620,
+      "bitrate": 128000,
+      "word_count": 92,
+      "invisible_character_ratio": 0,
+      "usage_characters": 173,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabf5db514b454b7aa44994001623",
+    "extra_info": {
+      "audio_length": 11664,
+      "audio_sample_rate": 32000,
+      "audio_size": 188340,
+      "bitrate": 128000,
+      "word_count": 61,
+      "invisible_character_ratio": 0,
+      "usage_characters": 114,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabf64481dde9a6d0c4fd2962ac82",
+    "extra_info": {
+      "audio_length": 14688,
+      "audio_sample_rate": 32000,
+      "audio_size": 236724,
+      "bitrate": 128000,
+      "word_count": 84,
+      "invisible_character_ratio": 0,
+      "usage_characters": 159,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabf8ff417f03080cc5c3e09ed1c1",
+    "extra_info": {
+      "audio_length": 14760,
+      "audio_sample_rate": 32000,
+      "audio_size": 237876,
+      "bitrate": 128000,
+      "word_count": 81,
+      "invisible_character_ratio": 0,
+      "usage_characters": 153,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabfa691372786a2898a65e0cc4d8",
+    "extra_info": {
+      "audio_length": 13032,
+      "audio_sample_rate": 32000,
+      "audio_size": 210228,
+      "bitrate": 128000,
+      "word_count": 70,
+      "invisible_character_ratio": 0,
+      "usage_characters": 133,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  },
+  {
+    "base_resp": {
+      "status_code": 0,
+      "status_msg": "success"
+    },
+    "trace_id": "071aabfcef791629a9269a4c1431fddc",
+    "extra_info": {
+      "audio_length": 17028,
+      "audio_sample_rate": 32000,
+      "audio_size": 274164,
+      "bitrate": 128000,
+      "word_count": 92,
+      "invisible_character_ratio": 0,
+      "usage_characters": 171,
+      "audio_format": "mp3",
+      "audio_channel": 1
+    },
+    "model": "speech-2.8-hd",
+    "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+    "speed": 1.0,
+    "emotion": "auto"
+  }
+]

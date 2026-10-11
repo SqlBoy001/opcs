@@ -1,0 +1,64 @@
+{
+  "calls": 9,
+  "usage_characters": 1221,
+  "requests": [
+    {
+      "chapter": "01",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 117,
+      "trace_id": "071aabee1c58ee2e386b2b3166bc9079"
+    },
+    {
+      "chapter": "02",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 119,
+      "trace_id": "071aabeff9d0a78a84fa57e49515f583"
+    },
+    {
+      "chapter": "03",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 82,
+      "trace_id": "071aabf113e7a15e52705e1dc17f0a67"
+    },
+    {
+      "chapter": "04",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 173,
+      "trace_id": "071aabf23402c76c1f5439a67dca72a0"
+    },
+    {
+      "chapter": "05",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 114,
+      "trace_id": "071aabf5db514b454b7aa44994001623"
+    },
+    {
+      "chapter": "06",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 159,
+      "trace_id": "071aabf64481dde9a6d0c4fd2962ac82"
+    },
+    {
+      "chapter": "07",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 153,
+      "trace_id": "071aabf8ff417f03080cc5c3e09ed1c1"
+    },
+    {
+      "chapter": "08",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 133,
+      "trace_id": "071aabfa691372786a2898a65e0cc4d8"
+    },
+    {
+      "chapter": "09",
+      "voice": "ttv-voice-2026101119460226-UTBhn2Xo",
+      "usage_characters": 171,
+      "trace_id": "071aabfcef791629a9269a4c1431fddc"
+    }
+  ],
+  "rate_cny_per_10000": 3.5,
+  "activation_fee": "no new voice; same voice activated earlier",
+  "actual_cash_cny": null,
+  "estimated_tts_cny": 0.42735
+}

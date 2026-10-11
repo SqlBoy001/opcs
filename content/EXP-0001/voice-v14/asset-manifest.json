@@ -1,0 +1,158 @@
+[
+  {
+    "file": "01-projects-before.jpg",
+    "bytes": 184327,
+    "sha256": "c35c3674e28769d6caef8323a6910aa134a52660b37ebd1169e6184286901388",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "02-projects-after.jpg",
+    "bytes": 179701,
+    "sha256": "23effdd553ccb5ae464d562d7f821155b91ec04382535bba079d255fca8a2641",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "03-ai-create.jpg",
+    "bytes": 56786,
+    "sha256": "ef0287763bfba212b5e253218104ff649626a2ac1915fb795fb258774d4628f5",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "04-review-workbench.jpg",
+    "bytes": 193656,
+    "sha256": "86d46fbdbd6670db9180046e751f179ccc79d7474a660558fa34adc024d4ba37",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "05-storyboard.jpg",
+    "bytes": 308242,
+    "sha256": "38ec95811a3a7eb88a725ceea78ce098800d43a0fdd02e751ad848cf42b6a31e",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "06-dark-theme.jpg",
+    "bytes": 176486,
+    "sha256": "ddee5c7057885a5ee2f65fc43f99326d852acd252336e24815a23f0b5cb2002c",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "08-film-at-07s.jpg",
+    "bytes": 206724,
+    "sha256": "7c4ea93d246facf962f3cebec164db599875ef25cb84f4a0a541d7132a373d72",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "09-film-at-54s.jpg",
+    "bytes": 211913,
+    "sha256": "d69b70e139a90653d3ddbbb8fecd5abf239382769b0aae8690b512c91657d300",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "correct.jpg",
+    "bytes": 35950,
+    "sha256": "4c1a270b8ab8ad5da9a8b70b0d70d757ae80641e3dc37fa7208d954fe36d3da0",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "edit-end.jpg",
+    "bytes": 143258,
+    "sha256": "4ad8db9872c18f2206ef1f7afbb88e145ab3b8d7e95adac63f6696fa43f6697c",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "edit.mp4",
+    "bytes": 3908105,
+    "sha256": "9aff67b313890da0b3d2db7bac0aba3cac6cb39cd0141dd1ce31bdbc0a683e34",
+    "source": "Source clips from media-source.json, original speed, muted"
+  },
+  {
+    "file": "prompt.jpg",
+    "bytes": 232119,
+    "sha256": "898ea845a76de919baa18a86ad3845137439400a27a9ce5314589f0c621b44f9",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "raw-end.jpg",
+    "bytes": 143196,
+    "sha256": "2b070a0193d6044d5d371cca7771da9ab8136969dc246b8584fcb48c4a3b0506",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "raw.mp4",
+    "bytes": 3421294,
+    "sha256": "7364b2def7cb0c38b89098da86da5ade50c24043656e95a544c2c9740488159e",
+    "source": "Source clips from media-source.json, original speed, muted"
+  },
+  {
+    "file": "resultA-end.jpg",
+    "bytes": 76681,
+    "sha256": "683946a1751de61c284a9721097c01c2da336a413eed6726e62dab746857134b",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "resultA.mp4",
+    "bytes": 1013221,
+    "sha256": "d8ef07f4787b930be780593b285d9a9a6c7e3762f7353e982f71b8c207d2cccb",
+    "source": "Source clips from media-source.json, original speed, muted"
+  },
+  {
+    "file": "resultB-end.jpg",
+    "bytes": 5620,
+    "sha256": "c8651665d85ca5a475fb5ffd71e32f4122661e3c7562939a45a3e815d2040e3a",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "resultB.mp4",
+    "bytes": 2044216,
+    "sha256": "183a03dd400bf8f553c6ecc37c616be9fe7a8ed0fb4326a1e6b5066a85963f83",
+    "source": "Source clips from media-source.json, original speed, muted"
+  },
+  {
+    "file": "resultC-end.jpg",
+    "bytes": 65058,
+    "sha256": "9a73a8cb69a6a44af80d155a8ad977751f04def0dc62096203c1a126a92c3a0d",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "resultC.mp4",
+    "bytes": 4197552,
+    "sha256": "fd274e0945b6e473d48ac90176b44683c2ba80963c1e8d4a96611247be4fb2a1",
+    "source": "Source clips from media-source.json, original speed, muted"
+  },
+  {
+    "file": "shackle.jpg",
+    "bytes": 157934,
+    "sha256": "d965ceba06f5563a87228e4d63ea8e6f8d6f7bd8ea34dca545aeba3fac8d7be1",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "soldier.jpg",
+    "bytes": 128887,
+    "sha256": "2b19a3a5628356f59380975804078fc897c7b45561c8c45b4631d8836faa2830",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "state.jpg",
+    "bytes": 133774,
+    "sha256": "67ec0faa02242e7e9c2493f81f8f9fc3e261874f018a69b7ff5855dc4d58d9d9",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "statecollar.jpg",
+    "bytes": 56416,
+    "sha256": "9ee8112f36fe12b94f6aa37f8ee1d08628dbc4d0d58a237be05816c7caab3429",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "stateleg.jpg",
+    "bytes": 78639,
+    "sha256": "860a589b2d2072b4878f3e439d94078ff1fb8cca43fa8ae010e33f3f347b5b25",
+    "source": "v12 verified existing evidence"
+  },
+  {
+    "file": "storyboard.jpg",
+    "bytes": 151116,
+    "sha256": "dcd2da9036dfae22ce9a57280d6f9defe71e97c6b937843f47d3bc351582f3b6",
+    "source": "v12 verified existing evidence"
+  }
+]

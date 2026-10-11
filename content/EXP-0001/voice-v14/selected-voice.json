@@ -1,0 +1,10 @@
+{
+  "label": "F-轻快讲述",
+  "provider": "MiniMax",
+  "voice_id": "ttv-voice-2026101119460226-UTBhn2Xo",
+  "creation_method": "voice_design",
+  "selection_status": "final voice approved by user",
+  "reuse_same_voice_id": true,
+  "approval_text": "就以这个音色吧",
+  "full_video_project": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v14-F"
+}

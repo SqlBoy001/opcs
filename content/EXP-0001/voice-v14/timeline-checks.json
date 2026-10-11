@@ -1,0 +1,13 @@
+{
+  "timeline": "passed - 24 contiguous shots",
+  "provider_caption_coverage": "passed - exact 651 input characters",
+  "caption_timestamp_bounds": "passed",
+  "selected_voice_id": "ttv-voice-2026101119460226-UTBhn2Xo",
+  "all_nine_chapters_use_selected_voice": true,
+  "phrase_count": 70,
+  "longest_caption_chars": 17,
+  "visual_review": "24 sampled frames viewed; no obvious clipping or overlap; prompt excerpt panel revised for clarity",
+  "human_listening": "F sample approved; complete narration pending human listening",
+  "business_qa": "not rerun; PARTIAL unchanged",
+  "final_prompt_panel": "encoded delivery screenshot inspected after revision"
+}

@@ -1,0 +1,40 @@
+{
+  "ACTIVE_PROJECT": "ai-drama-stadio / OPC-3 content only",
+  "goal": "Apply approved MiniMax F voice to the complete recap using existing evidence and v13 visual template",
+  "allowed_paths": [
+    "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v14-F",
+    "/Users/shenzihao/.hifox/organizations/4bff/runs/2026/10/3b8e5b2b/workdir/opcs/content/EXP-0001/voice-v14"
+  ],
+  "acceptance": [
+    "same selected voice ID throughout",
+    "all existing nine narration chapters preserved",
+    "captions aligned to provider word timestamps",
+    "1080x1920 MP4 plus delivery <=10 MB",
+    "no audit caveats shown in video"
+  ],
+  "budget": {
+    "max_paid_tts_calls": 9,
+    "max_input_billing_characters": 2500,
+    "estimated_tts_cny_upper_bound": 0.875,
+    "automatic_paid_retries": 0,
+    "new_voice_design_calls": 0,
+    "activation": "already activated previous turn"
+  },
+  "authorization": "User explicitly selected F after approving MiniMax generation and prior complete video plan",
+  "business_verification": "PARTIAL unchanged; execution self-check only",
+  "scope": "Independent content directory; source evidence and business repository untouched",
+  "framework": "Existing Remotion 4.0.534 from v13; HyperFrames routing read; no framework migration",
+  "voice_id": "ttv-voice-2026101119460226-UTBhn2Xo",
+  "hyperframes_usage": {
+    "status": "unknown",
+    "reason": "usage_request_failed"
+  },
+  "result": {
+    "duration_seconds": 120.56666666666666,
+    "shots": 24,
+    "caption_phrases": 70,
+    "voice_selection": "F approved by user 2026-10-11",
+    "style": "v13 warm paper layout expanded to full narration",
+    "bgm": "none, speech-forward audition style retained"
+  }
+}

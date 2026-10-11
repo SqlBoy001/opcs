@@ -1,0 +1,8 @@
+{
+  "integrated_lufs": -18.09,
+  "true_peak_dbtp": -1.85,
+  "lra": 3.4,
+  "source": "ffmpeg loudnorm analysis on complete MP3",
+  "normalization_requested_lufs": -16,
+  "note": "Measured output -18.09 LUFS; peak limiting constrains gain. No digital clipping detected by true peak measurement."
+}
