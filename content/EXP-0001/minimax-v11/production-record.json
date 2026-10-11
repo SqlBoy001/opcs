@@ -1,0 +1,40 @@
+{
+  "ACTIVE_PROJECT": "ai-drama-stadio",
+  "goal": "Replace robotic v10 narration with MiniMax natural Mandarin; retime captions and scenes",
+  "authorization": "User 2026-10-11 explicitly authorized MiniMax speech generation for this narration; supersedes prior no-paid-TTS constraint for this change only",
+  "allowed_paths": [
+    "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v11-minimax",
+    "opcs/content/EXP-0001"
+  ],
+  "acceptance": [
+    "MiniMax generated narration",
+    "Measured subtitle timing",
+    "Existing visuals retained and retimed",
+    "Cost wording follows Validation-Report-v2",
+    "No original overwrite",
+    "MP4 full decode and layout checks"
+  ],
+  "api_budget_policy": "Small one-version narration; estimated under CNY 1 at published rate; no automatic paid retries, no voice clone/design, no subscription/topup",
+  "agent_runtime_cost": "unknown",
+  "original_root": "/Users/shenzihao/Documents/ChatGPT/OPC-2-content-v10",
+  "business_verify": "PARTIAL",
+  "independent_qa": false,
+  "duration_seconds": 167.6,
+  "voice_provider": "MiniMax",
+  "voice_model": "speech-2.8-hd",
+  "voice_id": "Chinese (Mandarin)_Sincere_Adult",
+  "voice_speed": 0.98,
+  "api_calls": 9,
+  "api_actual_charge_cny": null,
+  "api_estimated_cny": 0.4809,
+  "caption_count": 77,
+  "skill_version": "3.14.0-rc.1",
+  "skill_path": "/Users/shenzihao/.hifox/organizations/040a2449-fbf3-4ec1-b87e-18aeaed0d2a4/runs/2026/09/d5cdf3e3-63cc-42cb-9cd2-65a1e2551c6a/codex-home/skills/adu-motion-video",
+  "no_new_screen_recording": true,
+  "pipeline": "existing custom Scene project + MiniMax paragraph audio + word subtitle timing + audio/mix/render",
+  "original_video_unchanged": true,
+  "voice_subjective_review": "pending",
+  "full_business_qa_additional": 0,
+  "agent_handoffs_additional": 0,
+  "paid_request_retries": 0
+}

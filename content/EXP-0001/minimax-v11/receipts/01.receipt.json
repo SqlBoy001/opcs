@@ -1,0 +1,20 @@
+{
+  "base_resp": {
+    "status_code": 0,
+    "status_msg": "success"
+  },
+  "trace_id": "071a4d4c0f3a6c4edd07ff8618a78120",
+  "extra_info": {
+    "audio_length": 16056,
+    "audio_sample_rate": 32000,
+    "audio_size": 258612,
+    "bitrate": 128000,
+    "word_count": 64,
+    "invisible_character_ratio": 0,
+    "usage_characters": 117,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "model": "speech-2.8-hd",
+  "voice": "Chinese (Mandarin)_Sincere_Adult"
+}

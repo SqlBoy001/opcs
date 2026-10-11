@@ -1,0 +1,91 @@
+{
+  "Completed": [
+    "MiniMax高清中文男声替换",
+    "9段自然段合成，77条逐词字幕对齐",
+    "24镜头与动效重新排时",
+    "背景音乐下调，费用边界修正",
+    "1080p母版、720p审阅版及纯旁白已生成"
+  ],
+  "Changed Files": [
+    "content/EXP-0001/content.json",
+    "content/EXP-0001/minimax-v11/",
+    "本机独立目录 OPC-3-content-v11-minimax"
+  ],
+  "Verification": {
+    "type": "targeted content producer self-check",
+    "independent_qa": false,
+    "subjective_listening": "not performed; user listening needed",
+    "timestamp_source": "MiniMax timestamped_words",
+    "exact_provider_text_coverage": true,
+    "chapters": 9,
+    "shots": 24,
+    "captions": 77,
+    "duration_seconds": 167.6,
+    "subtitle_overlap": false,
+    "shot_gaps": false,
+    "minimum_caption_seconds": 0.7836734693877645,
+    "reviewed_stills": 16,
+    "visual_observation": "No obvious caption cutoff or overlap in inspected stills, including longest caption and cost scenes. Not full-frame audit.",
+    "original_mp4_sha256": {
+      "OPC-2-v10-adu-motion-129s.mp4": "2158e37f6493f2cdbb68cd0858eb4785ad657b13da61844df0e176d25c9f7abb",
+      "OPC-2-v10-review-720p.mp4": "dfb499e91020a79f0a2d60d78ae7ce947b8520fdc87628ce8ce905734445a70f"
+    },
+    "video_checks": "passed: full decode, streams, duration, loudness/peak; not subjective listening",
+    "files": [
+      {
+        "file": "OPC-3-v11-minimax-1080p.mp4",
+        "bytes": 32623732,
+        "sha256": "715f1e36701078389fbe11722c10a5336185c05c0f1f00368c66dc8a994897aa",
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "duration": "167.600000",
+        "audio_codec": "aac",
+        "sample_rate": "48000",
+        "decode": "passed",
+        "loudness": {
+          "input_i": "-15.96",
+          "input_tp": "-1.14",
+          "input_lra": "3.30",
+          "input_thresh": "-26.74",
+          "output_i": "-16.15",
+          "output_tp": "-1.50",
+          "output_lra": "2.90",
+          "output_thresh": "-26.90",
+          "normalization_type": "dynamic",
+          "target_offset": "0.15"
+        }
+      },
+      {
+        "file": "OPC-3-v11-minimax-review-720p.mp4",
+        "bytes": 6758178,
+        "sha256": "04744055304372ffe8c72c824bb4d1ad022fa7dc17e07e32c2d2bd8e9bc1e37d",
+        "width": 720,
+        "height": 1280,
+        "fps": "30/1",
+        "duration": "167.600000",
+        "audio_codec": "aac",
+        "sample_rate": "48000",
+        "decode": "passed",
+        "loudness": {
+          "input_i": "-16.01",
+          "input_tp": "-0.83",
+          "input_lra": "3.20",
+          "input_thresh": "-26.79",
+          "output_i": "-16.17",
+          "output_tp": "-1.50",
+          "output_lra": "2.90",
+          "output_thresh": "-26.92",
+          "normalization_type": "dynamic",
+          "target_offset": "0.17"
+        }
+      }
+    ]
+  },
+  "Known Issues": [
+    "尚未完成人工连续听审，不能仅凭接口成功认定音色自然或全部吐字清晰",
+    "MiniMax实扣未对账；0.4809元为1374计费字符按官方单价估算",
+    "原漫剧业务验证仍PARTIAL"
+  ],
+  "Next Step": "用户试听新版口播与视频，确认音色、吐字及停顿是否符合预期。"
+}

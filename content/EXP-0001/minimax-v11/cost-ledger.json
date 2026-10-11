@@ -1,0 +1,70 @@
+{
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voice": "Chinese (Mandarin)_Sincere_Adult",
+  "speed": 0.98,
+  "calls": 9,
+  "usage_characters": 1374,
+  "rate_cny_per_10000": 3.5,
+  "rate_source": "https://platform.minimax.cn/docs/guides/pricing-paygo",
+  "currency": "CNY",
+  "actual_account_charge": null,
+  "account_charge_note": "No readable billing reconciliation obtained; calculated amount is published-rate estimate, not verified cash charge",
+  "requests": [
+    {
+      "chapter": "01",
+      "trace_id": "071a4d4c0f3a6c4edd07ff8618a78120",
+      "usage_characters": 117,
+      "audio_length_ms": 16056
+    },
+    {
+      "chapter": "02",
+      "trace_id": "071a4d63d7319953b812826f901dc32b",
+      "usage_characters": 119,
+      "audio_length_ms": 16488
+    },
+    {
+      "chapter": "03",
+      "trace_id": "071a4d65129d9abf5f83d2d58efb9f82",
+      "usage_characters": 82,
+      "audio_length_ms": 9108
+    },
+    {
+      "chapter": "04",
+      "trace_id": "071a4d66e8aa58debf1de1afc9fd598b",
+      "usage_characters": 173,
+      "audio_length_ms": 19656
+    },
+    {
+      "chapter": "05",
+      "trace_id": "071a4d694174c8d83edc9e603f65945d",
+      "usage_characters": 114,
+      "audio_length_ms": 14940
+    },
+    {
+      "chapter": "06",
+      "trace_id": "071a4d6bec6b380b6b8a413692110669",
+      "usage_characters": 159,
+      "audio_length_ms": 18432
+    },
+    {
+      "chapter": "07",
+      "trace_id": "071a4d6d2b97e561b4634a767d5dfd75",
+      "usage_characters": 153,
+      "audio_length_ms": 16668
+    },
+    {
+      "chapter": "08",
+      "trace_id": "071a4d6f0e79942169be1ba9fa367a4c",
+      "usage_characters": 239,
+      "audio_length_ms": 27360
+    },
+    {
+      "chapter": "09",
+      "trace_id": "071a4d72dc28e6280b74832b07df0e28",
+      "usage_characters": 218,
+      "audio_length_ms": 26388
+    }
+  ],
+  "estimated_cny": 0.4809
+}
