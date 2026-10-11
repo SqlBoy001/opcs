@@ -1,0 +1,31 @@
+{
+  "provider": "MiniMax",
+  "calls": 4,
+  "requests": [
+    {
+      "id": "01",
+      "traceId": "071aa154603c4423d6890a4a6115be27",
+      "usageCharacters": 22
+    },
+    {
+      "id": "02",
+      "traceId": "071aa155649be08e7099523f355af4f3",
+      "usageCharacters": 28
+    },
+    {
+      "id": "03",
+      "traceId": "071aa1575280b19c36e37bf805b9b920",
+      "usageCharacters": 28
+    },
+    {
+      "id": "04",
+      "traceId": "071aa1583b44c89191cbe767d25d2364",
+      "usageCharacters": 51
+    }
+  ],
+  "usageCharacters": 129,
+  "actualCashCny": null,
+  "rateCnyPer10000": 3.5,
+  "estimateSource": "https://platform.minimax.cn/docs/guides/pricing-paygo",
+  "estimatedCny": 0.04515
+}

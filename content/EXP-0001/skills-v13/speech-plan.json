@@ -1,0 +1,51 @@
+[
+  {
+    "id": "01",
+    "kind": "opening",
+    "text": "这六十秒，我改了好几轮。",
+    "emotion": "surprised",
+    "direction": "带一点无奈的自嘲，六十秒与好几轮形成反差",
+    "keywords": [
+      "六十秒",
+      "好几轮"
+    ],
+    "speed": 1.12
+  },
+  {
+    "id": "02",
+    "kind": "failure",
+    "text": "衣服穿错了朝代，镣铐也对不上。",
+    "emotion": "surprised",
+    "direction": "举例吐槽，强调穿错、对不上，避免夸张喊叫",
+    "keywords": [
+      "穿错",
+      "镣铐",
+      "对不上"
+    ],
+    "speed": 1.12
+  },
+  {
+    "id": "03",
+    "kind": "cost",
+    "text": "这版生成和修改，大概七十五元。",
+    "emotion": null,
+    "direction": "平实给出数字，不用广告推销语气",
+    "keywords": [
+      "七十五元"
+    ],
+    "speed": 1.12
+  },
+  {
+    "id": "04",
+    "kind": "takeaway",
+    "text": "后来才明白：先核对设定，再生成。动作不顺，就换个镜头讲。",
+    "emotion": "happy",
+    "direction": "想通后的轻松，核对设定和换个镜头是重点",
+    "keywords": [
+      "核对设定",
+      "再生成",
+      "换个镜头"
+    ],
+    "speed": 1.12
+  }
+]

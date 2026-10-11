@@ -9066,5 +9066,21 @@
     "evidence": [
       "minimax-v11/cost-ledger.json"
     ]
-  }
+  },
+  "skills_v13": {
+    "status": "pilot_ready_for_human_review",
+    "source": "minimax_v12",
+    "delivery_root": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v13-workflow",
+    "duration_seconds": 15.8,
+    "master_content": "skills-v13/content.json",
+    "installed_skills_manifest": "skills-v13/skills-lock.json",
+    "render_engine": "Remotion 4.0.534",
+    "voice_provider": "MiniMax",
+    "elevenlabs": "installed but missing credentials, no generated comparison",
+    "verification": "skills-v13/checks.json",
+    "cost": "skills-v13/cost-ledger.json",
+    "business_validation": "PARTIAL unchanged",
+    "expansion_gate": "Approve short pilot voice and pace before producing full version"
+  },
+  "latest_pilot": "skills_v13"
 }

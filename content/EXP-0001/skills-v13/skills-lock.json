@@ -1,0 +1,110 @@
+{
+  "skills": [
+    {
+      "name": "hyperframes",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes",
+      "files": 31,
+      "treeSha256": "9ff158d26836bdecd5f6a1c439a1f4685eb62770df8497b318ddf51c3a45e5c6"
+    },
+    {
+      "name": "hyperframes-core",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes-core",
+      "files": 11,
+      "treeSha256": "3374ca5fc4f6161077cab70b8b4387921809e7511ff592733498261e9417be5e"
+    },
+    {
+      "name": "hyperframes-animation",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes-animation",
+      "files": 122,
+      "treeSha256": "7f04b06c616863499d25e1a445929190d0d1a965b24017808edfb91f8dfbb44b"
+    },
+    {
+      "name": "hyperframes-cli",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes-cli",
+      "files": 11,
+      "treeSha256": "96cda39a219251e0abfbbe4f42afa5cc608b798d7e37cc6b0e5e38af30e1a96e"
+    },
+    {
+      "name": "hyperframes-creative",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes-creative",
+      "files": 79,
+      "treeSha256": "3f107c30483f65f195abcc7d66fd51e72af88e448d9214dd1b4998faefe0e830"
+    },
+    {
+      "name": "hyperframes-audio",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes-audio",
+      "files": 8,
+      "treeSha256": "a903cd950990669a3c7cc1faf7035e0945cb2e675f0b8ff801644b90b36bb4cc"
+    },
+    {
+      "name": "hyperframes-registry",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/hyperframes-registry",
+      "files": 12,
+      "treeSha256": "cbfc7a04d5c334554cf07fdb32f3961b90c0cfcc63c9cc57ecf0e15fcb0cc82d"
+    },
+    {
+      "name": "media-use",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "ba08acb1f506b06757bd77a7e7f491d412647fbd",
+      "path": "/Users/shenzihao/.agents/skills/media-use",
+      "files": 110,
+      "treeSha256": "f87a0bec192e0f4be6a78da5a0ccef88150d676193796a2bdb8e9f323d8d3f38"
+    },
+    {
+      "name": "text-to-speech",
+      "repo": "https://github.com/elevenlabs/skills",
+      "commit": "1d08a4a250cff67cc8056ec31587c031ecb06d2f",
+      "path": "/Users/shenzihao/.agents/skills/text-to-speech",
+      "files": 4,
+      "treeSha256": "dc2c949caf277005022bc1078131283fe3b344a9bf6937bd316b326bd441bb5d"
+    },
+    {
+      "name": "speech-to-text",
+      "repo": "https://github.com/elevenlabs/skills",
+      "commit": "1d08a4a250cff67cc8056ec31587c031ecb06d2f",
+      "path": "/Users/shenzihao/.agents/skills/speech-to-text",
+      "files": 7,
+      "treeSha256": "f64c6d14440bba2c8b40f152515ba2026bbb97fcbe4d23ede7d41fa84237a0d0"
+    },
+    {
+      "name": "remotion-best-practices",
+      "repo": "https://github.com/remotion-dev/skills",
+      "commit": "32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5",
+      "path": "/Users/shenzihao/.agents/skills/remotion-best-practices",
+      "files": 141,
+      "treeSha256": "c0e1de00d3c2b816211c0f79447cbf7eafedc9c8fde17ecede5f6316d7b5057b"
+    },
+    {
+      "name": "remotion-captions",
+      "repo": "https://github.com/remotion-dev/skills",
+      "commit": "32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5",
+      "path": "/Users/shenzihao/.agents/skills/remotion-captions",
+      "files": 6,
+      "treeSha256": "360ba94687ce13776e07e3582443913376fac11cdbee02f3344db112eddfae97"
+    },
+    {
+      "name": "remotion-render",
+      "repo": "https://github.com/remotion-dev/skills",
+      "commit": "32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5",
+      "path": "/Users/shenzihao/.agents/skills/remotion-render",
+      "files": 4,
+      "treeSha256": "8f0bd3b7859a519043cad645b0d9e906b2cebeea3c1edc9db10912dad1849f0f"
+    }
+  ],
+  "captionsMapping": "Remotion official captions is an explicit functional substitute; Captions AI official Skill not identified",
+  "activation": "persistent ~/.agents/skills plus symlinks into active runtime skills; available next turn"
+}

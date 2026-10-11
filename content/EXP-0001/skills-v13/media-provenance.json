@@ -1,0 +1,22 @@
+[
+  {
+    "file": "assets/soldier.jpg",
+    "source": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v12-expressive/project/assets/soldier.jpg",
+    "sha256": "2b19a3a5628356f59380975804078fc897c7b45561c8c45b4631d8836faa2830"
+  },
+  {
+    "file": "assets/correct.jpg",
+    "source": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v12-expressive/project/assets/correct.jpg",
+    "sha256": "4c1a270b8ab8ad5da9a8b70b0d70d757ae80641e3dc37fa7208d954fe36d3da0"
+  },
+  {
+    "file": "assets/shackle.jpg",
+    "source": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v12-expressive/project/assets/shackle.jpg",
+    "sha256": "d965ceba06f5563a87228e4d63ea8e6f8d6f7bd8ea34dca545aeba3fac8d7be1"
+  },
+  {
+    "file": "assets/09-film-at-54s.jpg",
+    "source": "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v12-expressive/project/assets/09-film-at-54s.jpg",
+    "sha256": "d69b70e139a90653d3ddbbb8fecd5abf239382769b0aae8690b512c91657d300"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "ACTIVE_PROJECT": "ai-drama-stadio",
+  "goal": "Install official video skills and implement reusable four-scene pilot with directed narration and captions",
+  "allowed_paths": [
+    "/Users/shenzihao/Documents/ChatGPT/OPC-3-content-v13-workflow",
+    "opcs/content/EXP-0001",
+    "/Users/shenzihao/.agents/skills",
+    "/Users/shenzihao/.hifox/organizations/4bff/runs/2026/10/3b8e5b2b/codex-home/skills"
+  ],
+  "acceptance": [
+    "official skill source pins recorded",
+    "15-20 second review pilot",
+    "four reusable scene components driven by content.json",
+    "word aligned highlighted captions",
+    "provider comparison entry point with missing credentials reported"
+  ],
+  "budget": {
+    "minimax_max_calls": 4,
+    "elevenlabs_calls": 0,
+    "no_auto_paid_retry": true,
+    "token": null,
+    "cash_actual": null
+  },
+  "authorization": "2026-10-11 user requests install matching skills and implement previously proposed pilot plan; prior MiniMax permission persists",
+  "independent_qa": false,
+  "business_validation": "PARTIAL unchanged",
+  "new_business_qa": 0,
+  "new_handoffs": 0,
+  "installed_skills": [
+    "hyperframes",
+    "hyperframes-core",
+    "hyperframes-animation",
+    "hyperframes-cli",
+    "hyperframes-creative",
+    "hyperframes-audio",
+    "hyperframes-registry",
+    "media-use",
+    "text-to-speech",
+    "speech-to-text",
+    "remotion-best-practices",
+    "remotion-captions",
+    "remotion-render"
+  ],
+  "status": "pilot_ready_for_review",
+  "duration_seconds": 15.8,
+  "new_paid_api_calls": 4,
+  "estimated_tts_cny": 0.04515,
+  "actual_tts_cash_cny": null,
+  "elevenlabs_status": "installed, missing API key and Mandarin voice selection, zero API calls",
+  "next_step": "Listen to pilot, select pace/voice before expanding to full video",
+  "editor_url": "http://localhost:3000/OPC-Pilot"
+}

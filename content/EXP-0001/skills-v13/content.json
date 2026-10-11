@@ -1,0 +1,1202 @@
+{
+  "schemaVersion": 1,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "brand": "OPC / 实验记录",
+  "reviewStatus": "pilot_pending_listening",
+  "scenes": [
+    {
+      "id": "01",
+      "kind": "opening",
+      "text": "这六十秒，我改了好几轮。",
+      "emotion": "surprised",
+      "direction": "带一点无奈的自嘲，六十秒与好几轮形成反差",
+      "keywords": [
+        "六十秒",
+        "好几轮"
+      ],
+      "speed": 1.12,
+      "title": "为了这60秒",
+      "startFrame": 0,
+      "durationFrames": 85,
+      "audio": "voice-01.wav",
+      "captions": [
+        {
+          "text": "这",
+          "startMs": 158.09523809523807,
+          "endMs": 462.85714285714283,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "六",
+          "startMs": 462.85714285714283,
+          "endMs": 615.2380952380952,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "十",
+          "startMs": 615.2380952380952,
+          "endMs": 767.6190476190475,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "秒",
+          "startMs": 767.6190476190475,
+          "endMs": 843.8095238095237,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "，",
+          "startMs": 843.8095238095237,
+          "endMs": 881.9047619047618,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "我",
+          "startMs": 881.9047619047618,
+          "endMs": 1110.4761904761904,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "改",
+          "startMs": 1110.4761904761904,
+          "endMs": 1491.4285714285713,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "了",
+          "startMs": 1491.4285714285713,
+          "endMs": 1643.8095238095236,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "好",
+          "startMs": 1643.8095238095236,
+          "endMs": 1719.9999999999998,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "几",
+          "startMs": 1719.9999999999998,
+          "endMs": 1872.380952380952,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "轮",
+          "startMs": 1872.380952380952,
+          "endMs": 2024.7619047619048,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "。",
+          "startMs": 2024.7619047619048,
+          "endMs": 2177.142857142857,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "cues": [
+        {
+          "text": "这六十秒，",
+          "startMs": 158.09523809523807,
+          "endMs": 881.9047619047618,
+          "words": [
+            {
+              "text": "这",
+              "startMs": 158.09523809523807,
+              "endMs": 462.85714285714283,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "六",
+              "startMs": 462.85714285714283,
+              "endMs": 615.2380952380952,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "十",
+              "startMs": 615.2380952380952,
+              "endMs": 767.6190476190475,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "秒",
+              "startMs": 767.6190476190475,
+              "endMs": 843.8095238095237,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "，",
+              "startMs": 843.8095238095237,
+              "endMs": 881.9047619047618,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 881.9047619047618
+        },
+        {
+          "text": "我改了好几轮。",
+          "startMs": 881.9047619047618,
+          "endMs": 2177.142857142857,
+          "words": [
+            {
+              "text": "我",
+              "startMs": 881.9047619047618,
+              "endMs": 1110.4761904761904,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "改",
+              "startMs": 1110.4761904761904,
+              "endMs": 1491.4285714285713,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "了",
+              "startMs": 1491.4285714285713,
+              "endMs": 1643.8095238095236,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "好",
+              "startMs": 1643.8095238095236,
+              "endMs": 1719.9999999999998,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "几",
+              "startMs": 1719.9999999999998,
+              "endMs": 1872.380952380952,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "轮",
+              "startMs": 1872.380952380952,
+              "endMs": 2024.7619047619048,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "。",
+              "startMs": 2024.7619047619048,
+              "endMs": 2177.142857142857,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 2833.3333333333335
+        }
+      ],
+      "visual": {
+        "prefix": "为了做出这版",
+        "number": "60",
+        "unit": "秒",
+        "stamp": "我改了好几轮",
+        "image": "09-film-at-54s.jpg"
+      }
+    },
+    {
+      "id": "02",
+      "kind": "failure",
+      "text": "衣服穿错了朝代，镣铐也对不上。",
+      "emotion": "surprised",
+      "direction": "举例吐槽，强调穿错、对不上，避免夸张喊叫",
+      "keywords": [
+        "穿错",
+        "镣铐",
+        "对不上"
+      ],
+      "speed": 1.12,
+      "title": "时代不对，细节也不对",
+      "startFrame": 85,
+      "durationFrames": 100,
+      "audio": "voice-02.wav",
+      "captions": [
+        {
+          "text": "衣",
+          "startMs": 158.09523809523807,
+          "endMs": 462.85714285714283,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "服",
+          "startMs": 462.85714285714283,
+          "endMs": 615.2380952380952,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "穿",
+          "startMs": 615.2380952380952,
+          "endMs": 729.5238095238094,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "错",
+          "startMs": 729.5238095238094,
+          "endMs": 919.9999999999999,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "了",
+          "startMs": 919.9999999999999,
+          "endMs": 1034.2857142857142,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "朝",
+          "startMs": 1034.2857142857142,
+          "endMs": 1148.5714285714284,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "代",
+          "startMs": 1148.5714285714284,
+          "endMs": 1339.0476190476188,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "，",
+          "startMs": 1339.0476190476188,
+          "endMs": 1377.142857142857,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "镣",
+          "startMs": 1377.142857142857,
+          "endMs": 1758.095238095238,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "铐",
+          "startMs": 1758.095238095238,
+          "endMs": 2024.7619047619048,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "也",
+          "startMs": 2024.7619047619048,
+          "endMs": 2253.333333333333,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "对",
+          "startMs": 2253.333333333333,
+          "endMs": 2329.5238095238096,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "不",
+          "startMs": 2329.5238095238096,
+          "endMs": 2443.8095238095234,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "上",
+          "startMs": 2443.8095238095234,
+          "endMs": 2558.0952380952376,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "。",
+          "startMs": 2558.0952380952376,
+          "endMs": 2710.47619047619,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "cues": [
+        {
+          "text": "衣服穿错了朝代，",
+          "startMs": 158.09523809523807,
+          "endMs": 1377.142857142857,
+          "words": [
+            {
+              "text": "衣",
+              "startMs": 158.09523809523807,
+              "endMs": 462.85714285714283,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "服",
+              "startMs": 462.85714285714283,
+              "endMs": 615.2380952380952,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "穿",
+              "startMs": 615.2380952380952,
+              "endMs": 729.5238095238094,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "错",
+              "startMs": 729.5238095238094,
+              "endMs": 919.9999999999999,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "了",
+              "startMs": 919.9999999999999,
+              "endMs": 1034.2857142857142,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "朝",
+              "startMs": 1034.2857142857142,
+              "endMs": 1148.5714285714284,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "代",
+              "startMs": 1148.5714285714284,
+              "endMs": 1339.0476190476188,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "，",
+              "startMs": 1339.0476190476188,
+              "endMs": 1377.142857142857,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 1377.142857142857
+        },
+        {
+          "text": "镣铐也对不上。",
+          "startMs": 1377.142857142857,
+          "endMs": 2710.47619047619,
+          "words": [
+            {
+              "text": "镣",
+              "startMs": 1377.142857142857,
+              "endMs": 1758.095238095238,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "铐",
+              "startMs": 1758.095238095238,
+              "endMs": 2024.7619047619048,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "也",
+              "startMs": 2024.7619047619048,
+              "endMs": 2253.333333333333,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "对",
+              "startMs": 2253.333333333333,
+              "endMs": 2329.5238095238096,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "不",
+              "startMs": 2329.5238095238096,
+              "endMs": 2443.8095238095234,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "上",
+              "startMs": 2443.8095238095234,
+              "endMs": 2558.0952380952376,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "。",
+              "startMs": 2558.0952380952376,
+              "endMs": 2710.47619047619,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 3333.3333333333335
+        }
+      ],
+      "visual": {
+        "heading": "时代不对，\n细节也不对。",
+        "beforeImage": "soldier.jpg",
+        "afterImage": "correct.jpg",
+        "detailImage": "shackle.jpg",
+        "detailAtSeconds": 1.55,
+        "beforeLabel": "错误样本",
+        "afterLabel": "调整后的参考",
+        "detailLabel": "镣铐又出问题",
+        "footer": "真实生成样本 · 先看问题，再谈经验"
+      }
+    },
+    {
+      "id": "03",
+      "kind": "cost",
+      "text": "这版生成和修改，大概七十五元。",
+      "emotion": null,
+      "direction": "平实给出数字，不用广告推销语气",
+      "keywords": [
+        "七十五元"
+      ],
+      "speed": 1.12,
+      "title": "这版，花了多少？",
+      "startFrame": 185,
+      "durationFrames": 96,
+      "audio": "voice-03.wav",
+      "captions": [
+        {
+          "text": "这",
+          "startMs": 158.09523809523807,
+          "endMs": 310.4761904761905,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "版",
+          "startMs": 310.4761904761905,
+          "endMs": 462.85714285714283,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "生",
+          "startMs": 462.85714285714283,
+          "endMs": 615.2380952380952,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "成",
+          "startMs": 615.2380952380952,
+          "endMs": 767.6190476190475,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "和",
+          "startMs": 767.6190476190475,
+          "endMs": 919.9999999999999,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "修",
+          "startMs": 919.9999999999999,
+          "endMs": 1034.2857142857142,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "改",
+          "startMs": 1034.2857142857142,
+          "endMs": 1186.6666666666665,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "，",
+          "startMs": 1186.6666666666665,
+          "endMs": 1224.7619047619048,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "大",
+          "startMs": 1224.7619047619048,
+          "endMs": 1681.9047619047617,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "概",
+          "startMs": 1681.9047619047617,
+          "endMs": 2024.7619047619048,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "七",
+          "startMs": 2024.7619047619048,
+          "endMs": 2139.0476190476193,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "十",
+          "startMs": 2139.0476190476193,
+          "endMs": 2329.5238095238096,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "五",
+          "startMs": 2329.5238095238096,
+          "endMs": 2405.7142857142853,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "元",
+          "startMs": 2405.7142857142853,
+          "endMs": 2558.0952380952376,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "。",
+          "startMs": 2558.0952380952376,
+          "endMs": 2710.47619047619,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "cues": [
+        {
+          "text": "这版生成和修改，",
+          "startMs": 158.09523809523807,
+          "endMs": 1224.7619047619048,
+          "words": [
+            {
+              "text": "这",
+              "startMs": 158.09523809523807,
+              "endMs": 310.4761904761905,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "版",
+              "startMs": 310.4761904761905,
+              "endMs": 462.85714285714283,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "生",
+              "startMs": 462.85714285714283,
+              "endMs": 615.2380952380952,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "成",
+              "startMs": 615.2380952380952,
+              "endMs": 767.6190476190475,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "和",
+              "startMs": 767.6190476190475,
+              "endMs": 919.9999999999999,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "修",
+              "startMs": 919.9999999999999,
+              "endMs": 1034.2857142857142,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "改",
+              "startMs": 1034.2857142857142,
+              "endMs": 1186.6666666666665,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "，",
+              "startMs": 1186.6666666666665,
+              "endMs": 1224.7619047619048,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 1224.7619047619048
+        },
+        {
+          "text": "大概七十五元。",
+          "startMs": 1224.7619047619048,
+          "endMs": 2710.47619047619,
+          "words": [
+            {
+              "text": "大",
+              "startMs": 1224.7619047619048,
+              "endMs": 1681.9047619047617,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "概",
+              "startMs": 1681.9047619047617,
+              "endMs": 2024.7619047619048,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "七",
+              "startMs": 2024.7619047619048,
+              "endMs": 2139.0476190476193,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "十",
+              "startMs": 2139.0476190476193,
+              "endMs": 2329.5238095238096,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "五",
+              "startMs": 2329.5238095238096,
+              "endMs": 2405.7142857142853,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "元",
+              "startMs": 2405.7142857142853,
+              "endMs": 2558.0952380952376,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "。",
+              "startMs": 2558.0952380952376,
+              "endMs": 2710.47619047619,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 3200.0
+        }
+      ],
+      "visual": {
+        "heading": "这版，\n花了多少？",
+        "scope": "生成和修改",
+        "qualifier": "约",
+        "number": "75",
+        "unit": "元",
+        "footer": "从试错里，留下下一轮的经验。"
+      }
+    },
+    {
+      "id": "04",
+      "kind": "takeaway",
+      "text": "后来才明白：先核对设定，再生成。动作不顺，就换个镜头讲。",
+      "emotion": "happy",
+      "direction": "想通后的轻松，核对设定和换个镜头是重点",
+      "keywords": [
+        "核对设定",
+        "再生成",
+        "换个镜头"
+      ],
+      "speed": 1.12,
+      "title": "先把错误拦下来",
+      "startFrame": 281,
+      "durationFrames": 191,
+      "audio": "voice-04.wav",
+      "captions": [
+        {
+          "text": "后",
+          "startMs": 158.09523809523807,
+          "endMs": 500.9523809523809,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "来",
+          "startMs": 500.9523809523809,
+          "endMs": 691.4285714285713,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "才",
+          "startMs": 691.4285714285713,
+          "endMs": 805.7142857142857,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "明",
+          "startMs": 805.7142857142857,
+          "endMs": 958.095238095238,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "白",
+          "startMs": 958.095238095238,
+          "endMs": 1148.5714285714284,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "：",
+          "startMs": 1148.5714285714284,
+          "endMs": 1224.7619047619048,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "先",
+          "startMs": 1224.7619047619048,
+          "endMs": 1567.6190476190475,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "核",
+          "startMs": 1567.6190476190475,
+          "endMs": 1796.190476190476,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "对",
+          "startMs": 1796.190476190476,
+          "endMs": 1986.6666666666663,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "设",
+          "startMs": 1986.6666666666663,
+          "endMs": 2100.9523809523807,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "定",
+          "startMs": 2100.9523809523807,
+          "endMs": 2253.333333333333,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "，",
+          "startMs": 2253.333333333333,
+          "endMs": 2291.428571428571,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "再",
+          "startMs": 2291.428571428571,
+          "endMs": 2596.190476190476,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "生",
+          "startMs": 2596.190476190476,
+          "endMs": 2786.666666666666,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "成",
+          "startMs": 2786.666666666666,
+          "endMs": 2977.1428571428564,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "。",
+          "startMs": 2977.1428571428564,
+          "endMs": 3091.428571428571,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "动",
+          "startMs": 3091.428571428571,
+          "endMs": 3586.666666666666,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "作",
+          "startMs": 3586.666666666666,
+          "endMs": 3777.142857142857,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "不",
+          "startMs": 3777.142857142857,
+          "endMs": 3891.428571428571,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "顺",
+          "startMs": 3891.428571428571,
+          "endMs": 4005.7142857142844,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "，",
+          "startMs": 4005.7142857142844,
+          "endMs": 4043.809523809524,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "就",
+          "startMs": 4043.809523809524,
+          "endMs": 4500.95238095238,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "换",
+          "startMs": 4500.95238095238,
+          "endMs": 4615.2380952380945,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "个",
+          "startMs": 4615.2380952380945,
+          "endMs": 4805.714285714285,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "镜",
+          "startMs": 4805.714285714285,
+          "endMs": 4919.999999999999,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "头",
+          "startMs": 4919.999999999999,
+          "endMs": 5034.285714285714,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "讲",
+          "startMs": 5034.285714285714,
+          "endMs": 5186.666666666666,
+          "timestampMs": null,
+          "confidence": null
+        },
+        {
+          "text": "。",
+          "startMs": 5186.666666666666,
+          "endMs": 5339.047619047619,
+          "timestampMs": null,
+          "confidence": null
+        }
+      ],
+      "cues": [
+        {
+          "text": "后来才明白：",
+          "startMs": 158.09523809523807,
+          "endMs": 1224.7619047619048,
+          "words": [
+            {
+              "text": "后",
+              "startMs": 158.09523809523807,
+              "endMs": 500.9523809523809,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "来",
+              "startMs": 500.9523809523809,
+              "endMs": 691.4285714285713,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "才",
+              "startMs": 691.4285714285713,
+              "endMs": 805.7142857142857,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "明",
+              "startMs": 805.7142857142857,
+              "endMs": 958.095238095238,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "白",
+              "startMs": 958.095238095238,
+              "endMs": 1148.5714285714284,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "：",
+              "startMs": 1148.5714285714284,
+              "endMs": 1224.7619047619048,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 1224.7619047619048
+        },
+        {
+          "text": "先核对设定，",
+          "startMs": 1224.7619047619048,
+          "endMs": 2291.428571428571,
+          "words": [
+            {
+              "text": "先",
+              "startMs": 1224.7619047619048,
+              "endMs": 1567.6190476190475,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "核",
+              "startMs": 1567.6190476190475,
+              "endMs": 1796.190476190476,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "对",
+              "startMs": 1796.190476190476,
+              "endMs": 1986.6666666666663,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "设",
+              "startMs": 1986.6666666666663,
+              "endMs": 2100.9523809523807,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "定",
+              "startMs": 2100.9523809523807,
+              "endMs": 2253.333333333333,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "，",
+              "startMs": 2253.333333333333,
+              "endMs": 2291.428571428571,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 2291.428571428571
+        },
+        {
+          "text": "再生成。",
+          "startMs": 2291.428571428571,
+          "endMs": 3091.428571428571,
+          "words": [
+            {
+              "text": "再",
+              "startMs": 2291.428571428571,
+              "endMs": 2596.190476190476,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "生",
+              "startMs": 2596.190476190476,
+              "endMs": 2786.666666666666,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "成",
+              "startMs": 2786.666666666666,
+              "endMs": 2977.1428571428564,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "。",
+              "startMs": 2977.1428571428564,
+              "endMs": 3091.428571428571,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 3091.428571428571
+        },
+        {
+          "text": "动作不顺，",
+          "startMs": 3091.428571428571,
+          "endMs": 4043.809523809524,
+          "words": [
+            {
+              "text": "动",
+              "startMs": 3091.428571428571,
+              "endMs": 3586.666666666666,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "作",
+              "startMs": 3586.666666666666,
+              "endMs": 3777.142857142857,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "不",
+              "startMs": 3777.142857142857,
+              "endMs": 3891.428571428571,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "顺",
+              "startMs": 3891.428571428571,
+              "endMs": 4005.7142857142844,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "，",
+              "startMs": 4005.7142857142844,
+              "endMs": 4043.809523809524,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 4043.809523809524
+        },
+        {
+          "text": "就换个镜头讲。",
+          "startMs": 4043.809523809524,
+          "endMs": 5339.047619047619,
+          "words": [
+            {
+              "text": "就",
+              "startMs": 4043.809523809524,
+              "endMs": 4500.95238095238,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "换",
+              "startMs": 4500.95238095238,
+              "endMs": 4615.2380952380945,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "个",
+              "startMs": 4615.2380952380945,
+              "endMs": 4805.714285714285,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "镜",
+              "startMs": 4805.714285714285,
+              "endMs": 4919.999999999999,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "头",
+              "startMs": 4919.999999999999,
+              "endMs": 5034.285714285714,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "讲",
+              "startMs": 5034.285714285714,
+              "endMs": 5186.666666666666,
+              "timestampMs": null,
+              "confidence": null
+            },
+            {
+              "text": "。",
+              "startMs": 5186.666666666666,
+              "endMs": 5339.047619047619,
+              "timestampMs": null,
+              "confidence": null
+            }
+          ],
+          "displayEndMs": 6366.666666666666
+        }
+      ],
+      "visual": {
+        "eyebrow": "这轮实验留下的经验",
+        "heading": "先把错误\n拦下来。",
+        "steps": [
+          "先核对设定",
+          "再生成",
+          "换个镜头讲"
+        ],
+        "stepAtSeconds": [
+          1,
+          2.2,
+          3.8
+        ]
+      }
+    }
+  ],
+  "source": "EXP-0001; v12 selected evidence",
+  "costScope": "User requested approximate video generation/modification spend; v2 limits retained in production records.",
+  "durationFrames": 472
+}
